@@ -40,6 +40,7 @@ func withdraw(value int, wg *sync.WaitGroup){
 
 
 func main() {
+<<<<<<< HEAD
  fmt.Println("Hello World")
 
 
