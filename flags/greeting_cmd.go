@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type greetingCmd struct {
-	Name string `long:"name" description:"Your name, for a greeting" default:"Unknown"`
+	Name string `short:"n" long:"name" description:"Your name, for a greeting" default:"Unknown"`
 }
 
 // Execute export
