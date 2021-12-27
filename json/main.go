@@ -6,35 +6,34 @@ import (
 )
 
 type person struct {
-	Age int `json:"age,omitempty"`
-	address string 
-	Name string `json:"name,omitempty"`
-	Gender string `json:"gender,omitempty"`
+	Age     int `json:"age,omitempty"`
+	address string
+	Name    string `json:"name,omitempty"`
+	Gender  string `json:"gender,omitempty"`
 }
 
 func main() {
-   qi := person{38,"Ole tilseth veg 21c","Qi", "Male"}
+	qi := person{38, "Ole tilseth veg 21c", "Qi", "Male"}
 
-   js, _ := json.Marshal(&qi)
+	js, _ := json.Marshal(&qi)
 
 	// only show filed which can be exported (with capital letter)
-   fmt.Println("struct obj to json : ", string(js))
+	fmt.Println("struct obj to json : ", string(js))
 
-    
-   //-------------------------------------------
-   qiJson := `{
+	//-------------------------------------------
+	qiJson := `{
 	   	"age": 38,
-		"name": "Qi",
+			"name": "Qi",
 		"gender": "Male"
    }`
 
-   personObj := person{}
+	personObj := person{}
 
-   err := json.Unmarshal([]byte(qiJson), &personObj)
+	err := json.Unmarshal([]byte(qiJson), &personObj)
 
-   if err != nil {
-	   fmt.Println(err)
-   }
+	if err != nil {
+		fmt.Println(err)
+	}
 
-   fmt.Printf("json unmarshal : %v \n", personObj.Name)
+	fmt.Printf("json unmarshal : %v \n", personObj.Name)
 }
