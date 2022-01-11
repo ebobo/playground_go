@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-
 func main() {
 	legoSets := map[int]string{
 		10278: "Police Station",
@@ -19,4 +18,3 @@ func main() {
 	fmt.Println(len(legoSets))
 
 }
-

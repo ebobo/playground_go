@@ -8,6 +8,7 @@ import (
 
 type Options struct {
 	Greeting greetingCmd `command:"greeting" description:"Say hello to user"`
+	GoodBye  goodbyeCmd  `command:"bye" description:"Say goodbye to user"`
 }
 
 func main() {
@@ -25,3 +26,5 @@ func main() {
 		os.Exit(1)
 	}
 }
+
+// go run . greeting -n qi
