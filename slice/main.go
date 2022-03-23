@@ -5,15 +5,29 @@ import "fmt"
 func main() {
 
 	a := []int{1, 2, 3, 4, 5}
+	fmt.Println("a:", a)
 
-	// copy slice
+	// real copy slice
 	b := make([]int, len(a))
 	copy(b, a)
-
-	c := a[1:]
 	b[1] = 100
+	fmt.Println("b:", b)
 
-	fmt.Println(a)
-	fmt.Println(b)
-	fmt.Println(c)
+	// from index 1 and behind (include index 1)
+	c := a[1:]
+	fmt.Println("c:", c)
+
+	// from begining to index 2 (but not include index 2)
+	d := a[:2]
+	fmt.Println("d:", d)
+
+	// from index 2 to index 4 (but not include index 4)
+	e := a[2:4]
+	fmt.Println("e:", e)
+
+	// from index 2 to index 4 (but not include index 4)
+	f := a[:0]
+	fmt.Println("f:", f)
+
+	fmt.Println("a:", a)
 }
