@@ -5,11 +5,12 @@ import (
 )
 
 type UserManagementService struct {
+	serverId  int32
 	user_list map[int]string
 }
 
 func newUserManagementService() *UserManagementService {
-	s := UserManagementService{user_list: make(map[int]string)}
+	s := UserManagementService{serverId: 1, user_list: make(map[int]string)}
 	return &s
 }
 
@@ -20,7 +21,13 @@ func (service *UserManagementService) CreateUser(id int, name string) {
 }
 
 func (service *UserManagementService) PrintAllUser() {
-	fmt.Println(service.user_list)
+	for i, v := range service.user_list {
+		fmt.Printf("id: %d  name: %s \n", i, v)
+	}
+}
+
+func (service UserManagementService) PrintServerID() {
+	fmt.Println(service.serverId)
 }
 
 func main() {
@@ -31,5 +38,6 @@ func main() {
 	service.CreateUser(1, "Qi Xu")
 	service.CreateUser(2, "Zhi Xing")
 
+	service.PrintServerID()
 	service.PrintAllUser()
 }
