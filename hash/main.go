@@ -1,10 +1,12 @@
 package main
 
 import (
+	"crypto/sha512"
 	"fmt"
-	"io"
+	"io/ioutil"
 	"log"
 	"os"
+	"sort"
 )
 
 func main() {
@@ -21,8 +23,9 @@ func main() {
 	// }
 
 	// sha256 := sha512.Sum512(fileBytes)
-
 	// fmt.Printf("%x\n", sha256)
+
+	//---------------------------------------------
 	// hash := sha512.New()
 
 	// file, err := os.Open("data/abc.txt")
@@ -50,46 +53,104 @@ func main() {
 
 	// fmt.Printf("%x\n", sum)
 
-	source, err := os.Open("data/abc.txt")
+	//--------------------------------------------------
+
+	// hash := sha512.New()
+
+	// file, err := os.Open("data/abc.txt")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// defer file.Close()
+
+	// file2, err := os.Open("data/acb.txt")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// defer file2.Close()
+
+	// fileBytes, err := ioutil.ReadAll(file)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+
+	// fileBytes2, err := ioutil.ReadAll(file2)
+
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+
+	// hash.Write(fileBytes)
+	// hash.Write(fileBytes2)
+
+	// sum := hash.Sum(nil)
+
+	// fmt.Printf("%x\n", sum)
+
+	//---------------------------------------------
+	hash := sha512.New()
+	files, err := ioutil.ReadDir("data/")
+	// SortFileNameAscend(files)
+
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer source.Close()
 
-	source2, err := os.Open("data/acb.txt")
-	if err != nil {
-		log.Fatal(err)
+	for _, f := range files {
+		fmt.Println(f.Name())
+		file, err := os.Open("data/" + f.Name())
+		if err != nil {
+			log.Println(err)
+			continue
+		}
+		defer file.Close()
+		fileBytes, err := ioutil.ReadAll(file)
+		if err != nil {
+			log.Fatal(err)
+		}
+		hash.Write(fileBytes)
 	}
-	defer source2.Close()
 
-	source3, err := os.Open("data/123.c")
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer source3.Close()
+	sum := hash.Sum(nil)
 
-	destination, err := os.Create("data/out.txt")
-	if err != nil {
-		log.Fatal(err)
-
-	}
-	defer destination.Close()
-
-	_, err = io.Copy(destination, source)
-
-	if err != nil {
-		log.Fatal(err)
-
-	}
-	_, err = io.Copy(destination, source2)
-	if err != nil {
-		log.Fatal(err)
-
-	}
-	_, err = io.Copy(destination, source3)
-	if err != nil {
-		log.Fatal(err)
-
-	}
+	fmt.Printf("%x\n", sum)
 
 }
+
+func SortFileNameAscend(files []os.FileInfo) {
+	sort.Slice(files, func(i, j int) bool {
+		return files[i].Name() < files[j].Name()
+	})
+}
+
+func SortFileNameDescend(files []os.FileInfo) {
+	sort.Slice(files, func(i, j int) bool {
+		return files[i].Name() > files[j].Name()
+	})
+}
+
+// func sortFolder(path string) {
+// 	files, err := ioutil.ReadDir("/data/")
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+
+// 	for _, f := range files {
+// 		file, err := os.Open(f.Name())
+// 		if err != nil {
+// 			log.Println(err)
+// 			continue
+// 		}
+// 		defer file.Close()
+// 		fileBytes, err := ioutil.ReadAll(file)
+// 		if err != nil {
+// 			log.Fatal(err)
+// 		}
+// 		hash.Write(fileBytes)
+// 	}
+
+// 	sum := hash.Sum(nil)
+
+// 	fmt.Printf("%x\n", sum)
+
+// }
