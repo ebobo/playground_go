@@ -28,6 +28,4 @@ func main() {
 	// from index 2 to index 4 (but not include index 4)
 	f := a[:0]
 	fmt.Println("f:", f)
-
-	fmt.Println("a:", a)
 }
