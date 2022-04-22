@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/binary"
 	"fmt"
 )
 
@@ -36,12 +37,27 @@ func main() {
 
 	// strByte := []byte(4)
 	// ascii code
-	// fmt.Println(payload)
 
-	fmt.Println(src, len(src))
+	// fmt.Println(reflect.TypeOf(src))
+
+	// fmt.Printf("%x, %d\n", src, len(src))
+
 	// dst := make([]byte, hex.EncodedLen(20))
 	// hex.Encode(dst, src)
 	// fmt.Println(dst)
 
-	// fmt.Printf("%s, %s\n", dst, src)
+	int32ToBytes()
+
+}
+
+func int32ToBytes() {
+	i := 56789
+
+	fmt.Println(i)
+
+	b := make([]byte, 4)
+	binary.LittleEndian.PutUint32(b, uint32(i))
+
+	fmt.Println(b)
+
 }

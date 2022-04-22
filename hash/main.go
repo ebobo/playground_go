@@ -91,7 +91,7 @@ func main() {
 
 	//---------------------------------------------
 	hash := sha512.New()
-	files, err := ioutil.ReadDir("test-data/")
+	files, err := ioutil.ReadDir("data/")
 	SortFileNameAscend(files)
 
 	if err != nil {
@@ -106,7 +106,7 @@ func main() {
 			continue
 		}
 
-		path := filepath.Join("test-data", f.Name())
+		path := filepath.Join("data", f.Name())
 
 		fmt.Printf("%s\n", path)
 
