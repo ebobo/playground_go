@@ -6,6 +6,8 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path"
+	"path/filepath"
 	"sort"
 )
 
@@ -89,16 +91,26 @@ func main() {
 
 	//---------------------------------------------
 	hash := sha512.New()
-	files, err := ioutil.ReadDir("data/")
-	// SortFileNameAscend(files)
+	files, err := ioutil.ReadDir("test-data/")
+	SortFileNameAscend(files)
 
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	for _, f := range files {
-		fmt.Println(f.Name())
-		file, err := os.Open("data/" + f.Name())
+
+		ext := path.Ext(f.Name())
+		if ext != ".c" {
+			log.Println("not c file")
+			continue
+		}
+
+		path := filepath.Join("test-data", f.Name())
+
+		fmt.Printf("%s\n", path)
+
+		file, err := os.Open(filepath.Join(path))
 		if err != nil {
 			log.Println(err)
 			continue
@@ -106,7 +118,8 @@ func main() {
 		defer file.Close()
 		fileBytes, err := ioutil.ReadAll(file)
 		if err != nil {
-			log.Fatal(err)
+			log.Println(err)
+			continue
 		}
 		hash.Write(fileBytes)
 	}
