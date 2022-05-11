@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTRO_SAFE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AutroSimXmlDef.xsd" SchemaVersion="1.3.0.0">
+ <FILE IdNo="" SiteName="KOLHEIVEGEN 10" SiteNo="" ConfigurationDate="260598" OrderNo="" RevisionDate="" RevisionOrderNo="" ConfiguredBy="RLE" RevisedBy="" FileName="KOLHEIVEGEN10_210625_4.11.2" GenerationTool="AS_Config" ToolVersion="4.11.2.0" GenerationTime="2021-06-25T14:18:47"/>
+ <DOMAIN Id="U1" Name="Domain Network" AcId="DO1" DualSafetyConfig="Primary configuration">
+  <PANEL Id="U2" Name="BRANNSENTRAL" Hardware="BS-420" AcId="PA1" LogOnId="3" BlcEqId="BQ1" BlcEqPipeId="50377" PointCtrlId="pt1" PanelId="0" SingleNet="false" LastIpAddrByte="20">
+   <INDICATORS>
+    <INDICATOR Id="U4" Func="BUZZER" Name="BRANNSENTRAL_Buzzer"/>
+   </INDICATORS>
+   <BUTTONS>
+    <BUTTON Id="U5" Func="MUTE" Name="BRANNSENTRAL_Mute"/>
+    <BUTTON Id="U6" Func="SILENCE_I" Name="BRANNSENTRAL_Silence"/>
+    <BUTTON Id="U7" Func="RESET_I" Name="BRANNSENTRAL_Reset"/>
+   </BUTTONS>
+   <IO_MODULES>
+    <AL_POWER_IF Id="U8" Name="BSL 310" AcId="DL1" ModbusIdx="0" Hardware="BSL-310" LoopLocalId="0" PointType="0xe7">
+     <POWER Id="U9" Name="Power" AcId="PW1" ModbusIdx="0" Hardware="Power" PointConfig="0x0" PointType="0xc5"/>
+    </AL_POWER_IF>
+    <AL Id="U10" Name="SLØYFE-A1" AcId="DL2" ModbusIdx="0" Hardware="BSD-310" LoopLocalId="1" PointType="0xe0" MaxLedsLighted="3" MaxExtDetOutputsAct="3">
+     <LOOP_START Id="U11" TopologyType="KNOWN"/>
+     <CONTENT>
+      <PNT Func="HEAT" Id="U13" Name="A1 001" AcId="PT1" ModbusIdx="0" PerClass="A1" LED="1" SV="1" PointDelay="true" Hardware="BD-50x" PointConfig="0xb00" PointType="0x2"/>
+      <PNT Func="MULTI" Id="U14" Name="A1 003" AcId="PT2" ModbusIdx="0" PerClass="Class 0" OpClass="Multi Sensor w/heat" LED="1" SV="1" PointDelay="true" Hardware="BH-320" PointConfig="0x300" PointType="0x4"/>
+      <FAD Func="FAD" Id="U15" Name="A1 004" AcId="FD1" ModbusIdx="0" IsMutable="true" SoundPressureLevel="HIGH" Hardware="BBR-110" PointConfig="0x0" PointType="0xf"/>
+      <PNT Func="MULTI" Id="U16" Name="A1 005" AcId="PT3" ModbusIdx="0" PerClass="Class 0" OpClass="Multi Sensor w/heat" LED="1" SV="1" PointDelay="true" Hardware="BH-320" PointConfig="0x300" PointType="0x4"/>
+      <PNT Func="MULTI" Id="U17" Name="A1 006" AcId="PT4" ModbusIdx="0" PerClass="Class 0" OpClass="Multi Sensor w/heat" LED="1" SV="1" PointDelay="true" Hardware="BH-320" PointConfig="0x300" PointType="0x4"/>
+      <PNT Func="MULTI" Id="U18" Name="A1 007" AcId="PT5" ModbusIdx="0" PerClass="Class 0" OpClass="Multi Sensor w/heat" LED="1" SV="1" PointDelay="true" Hardware="BH-320" PointConfig="0x300" PointType="0x4"/>
+      <FAD Func="FAD" Id="U19" Name="A1 008" AcId="FD2" ModbusIdx="0" IsMutable="true" SoundPressureLevel="HIGH" Hardware="BBR-110" PointConfig="0x0" PointType="0xf"/>
+      <PNT Func="HEAT" Id="U20" Name="A1 009" AcId="PT6" ModbusIdx="0" PerClass="A1" LED="1" SV="1" PointDelay="true" Hardware="BD-50x" PointConfig="0xb00" PointType="0x2"/>
+      <PNT Func="HEAT" Id="U21" Name="A1 011" AcId="PT7" ModbusIdx="0" PerClass="A1" LED="1" SV="1" PointDelay="true" Hardware="BD-50x" PointConfig="0xb00" PointType="0x2"/>
+      <PNT Func="MULTI" Id="U22" Name="A1 013" AcId="PT8" ModbusIdx="0" PerClass="Class 0" OpClass="Multi Sensor w/heat" LED="1" SV="1" PointDelay="true" Hardware="BH-320" PointConfig="0x300" PointType="0x4"/>
+      <FAD Func="FAD" Id="U23" Name="A1 014" AcId="FD3" ModbusIdx="0" IsMutable="true" SoundPressureLevel="HIGH" Hardware="BBR-110" PointConfig="0x0" PointType="0xf"/>
+      <PNT Func="MULTI" Id="U24" Name="A1 015" AcId="PT9" ModbusIdx="0" PerClass="Class 0" OpClass="Multi Sensor w/heat" LED="1" SV="1" PointDelay="true" Hardware="BH-320" PointConfig="0x300" PointType="0x4"/>
+      <PNT Func="MULTI" Id="U25" Name="A1 016" AcId="PTA" ModbusIdx="0" PerClass="Class 0" OpClass="Multi Sensor w/heat" LED="1" SV="1" PointDelay="true" Hardware="BH-320" PointConfig="0x300" PointType="0x4"/>
+      <PNT Func="MULTI" Id="U26" Name="A1 017" AcId="PTB" ModbusIdx="0" PerClass="Class 0" OpClass="Multi Sensor w/heat" LED="1" SV="1" PointDelay="true" Hardware="BH-320" PointConfig="0x300" PointType="0x4"/>
+      <FAD Func="FAD" Id="U27" Name="A1 018" AcId="FD4" ModbusIdx="0" IsMutable="true" SoundPressureLevel="HIGH" Hardware="BBR-110" PointConfig="0x0" PointType="0xf"/>
+      <PNT Func="HEAT" Id="U28" Name="A1 019" AcId="PTC" ModbusIdx="0" PerClass="A1" LED="1" SV="1" PointDelay="true" Hardware="BD-50x" PointConfig="0xb00" PointType="0x2"/>
+     </CONTENT>
+     <LOOP_END Id="U12"/>
+     <TOPOLOGY>
+      <LU Lu="U11" Ad="U13"/>
+      <LU Lu="U13" Ad="U11 U14"/>
+      <LU Lu="U14" Ad="U13 U15"/>
+      <LU Lu="U15" Ad="U14 U16"/>
+      <LU Lu="U16" Ad="U15 U17"/>
+      <LU Lu="U17" Ad="U16 U18"/>
+      <LU Lu="U18" Ad="U17 U19"/>
+      <LU Lu="U19" Ad="U18 U20"/>
+      <LU Lu="U20" Ad="U19 U21"/>
+      <LU Lu="U21" Ad="U20 U22"/>
+      <LU Lu="U22" Ad="U21 U23"/>
+      <LU Lu="U23" Ad="U22 U24"/>
+      <LU Lu="U24" Ad="U23 U25"/>
+      <LU Lu="U25" Ad="U24 U26"/>
+      <LU Lu="U26" Ad="U25 U27"/>
+      <LU Lu="U27" Ad="U26 U28"/>
+      <LU Lu="U28" Ad="U27 U12"/>
+      <LU Lu="U12" Ad="U28"/>
+     </TOPOLOGY>
+    </AL>
+    <AL Id="U29" Name="SLØYFE-A2" AcId="DL3" ModbusIdx="0" Hardware="BSD-310" LoopLocalId="2" PointType="0xe0" MaxLedsLighted="3" MaxExtDetOutputsAct="3">
+     <LOOP_START Id="U30" TopologyType="KNOWN"/>
+     <CONTENT>
+      <PNT Func="MCP" Id="U32" Name="A2 001" AcId="PTD" ModbusIdx="0" LED="1" SV="1" PointDelay="false" Hardware="BF-300" PointConfig="0x300" PointType="0x6"/>
+      <PNT Func="HEAT" Id="U33" Name="A2 002" AcId="PTE" ModbusIdx="0" PerClass="A1" LED="1" SV="0" PointDelay="true" Hardware="BD-200" PointConfig="0x100" PointType="0x2"/>
+      <PNT Func="OPT" Id="U34" Name="A2 003" AcId="PTF" ModbusIdx="0" PerClass="Normal 1" LED="1" SV="0" PointDelay="true" Hardware="BH-200" PointConfig="0x100" PointType="0x1"/>
+      <PNT Func="OPT" Id="U35" Name="A2 004" AcId="PT10" ModbusIdx="0" PerClass="Normal 1" LED="1" SV="0" PointDelay="true" Hardware="BH-200" PointConfig="0x100" PointType="0x1"/>
+      <FAD Func="FAD" Id="U36" Name="A2 005" AcId="FD5" ModbusIdx="0" IsMutable="true" SoundPressureLevel="HIGH" Hardware="BBR-110" PointConfig="0x0" PointType="0xf"/>
+      <PNT Func="MCP" Id="U37" Name="A2 006" AcId="PT11" ModbusIdx="0" LED="1" SV="1" PointDelay="false" Hardware="BF-300" PointConfig="0x300" PointType="0x6"/>
+      <PNT Func="HEAT" Id="U38" Name="A2 007" AcId="PT12" ModbusIdx="0" PerClass="A1" LED="1" SV="0" PointDelay="true" Hardware="BD-200" PointConfig="0x100" PointType="0x2"/>
+      <PNT Func="HEAT" Id="U39" Name="A2 008" AcId="PT13" ModbusIdx="0" PerClass="A1" LED="1" SV="0" PointDelay="true" Hardware="BD-200" PointConfig="0x100" PointType="0x2"/>
+      <PNT Func="OPT" Id="U40" Name="A2 009" AcId="PT14" ModbusIdx="0" PerClass="Normal 1" LED="1" SV="0" PointDelay="true" Hardware="BH-200" PointConfig="0x100" PointType="0x1"/>
+      <PNT Func="OPT" Id="U41" Name="A2 010" AcId="PT15" ModbusIdx="0" PerClass="Normal 1" LED="1" SV="0" PointDelay="true" Hardware="BH-200" PointConfig="0x100" PointType="0x1"/>
+      <FAD Func="FAD" Id="U42" Name="A2 011" AcId="FD6" ModbusIdx="0" IsMutable="true" SoundPressureLevel="HIGH" Hardware="BBR-110" PointConfig="0x0" PointType="0xf"/>
+      <PNT Func="OPT" Id="U43" Name="A2 012" AcId="PT16" ModbusIdx="0" PerClass="Normal 1" LED="1" SV="0" PointDelay="true" Hardware="BH-200" PointConfig="0x100" PointType="0x1"/>
+      <PNT Func="MCP" Id="U44" Name="A2 013" AcId="PT17" ModbusIdx="0" LED="1" SV="1" PointDelay="false" Hardware="BF-300" PointConfig="0x300" PointType="0x6"/>
+      <PNT Func="OPT" Id="U45" Name="A2 014" AcId="PT18" ModbusIdx="0" PerClass="Normal 1" LED="1" SV="0" PointDelay="true" Hardware="BH-200" PointConfig="0x100" PointType="0x1"/>
+      <PNT Func="SPR" Id="U46" Name="A2 015" AcId="PT19" ModbusIdx="0" ALTMR="PT30S" PATMR="PT10S" LED="0" SV="0" PointDelay="true" Hardware="BN-320/5" PointConfig="0x8" PointType="0xcc"/>
+     </CONTENT>
+     <LOOP_END Id="U31"/>
+     <TOPOLOGY>
+      <LU Lu="U30" Ad="U32"/>
+      <LU Lu="U32" Ad="U30 U33"/>
+      <LU Lu="U33" Ad="U32 U34"/>
+      <LU Lu="U34" Ad="U33 U35"/>
+      <LU Lu="U35" Ad="U34 U36"/>
+      <LU Lu="U36" Ad="U35 U37"/>
+      <LU Lu="U37" Ad="U36 U38"/>
+      <LU Lu="U38" Ad="U37 U39"/>
+      <LU Lu="U39" Ad="U38 U40"/>
+      <LU Lu="U40" Ad="U39 U41"/>
+      <LU Lu="U41" Ad="U40 U42"/>
+      <LU Lu="U42" Ad="U41 U43"/>
+      <LU Lu="U43" Ad="U42 U44"/>
+      <LU Lu="U44" Ad="U43 U45"/>
+      <LU Lu="U45" Ad="U44 U46"/>
+      <LU Lu="U46" Ad="U45 U31"/>
+      <LU Lu="U31" Ad="U46"/>
+     </TOPOLOGY>
+    </AL>
+    <OUT_MODULE Id="U47" Name="BSB-310-1" AcId="DL4" ModbusIdx="0" Hardware="BSB-310" LoopLocalId="3" PointType="0xe3">
+     <OUT Func="FARE" Id="U48" Name="BRANNVESENET" AcId="FP1" ModbusIdx="0" Delay="PT0S" OffOnReset="false" PointConfig="0x0" PointType="0xc1"/>
+     <OUT Func="OUT" Id="U49" Name="RESERVE-1" AcId="FP2" ModbusIdx="0" Delay="PT0S" OffOnReset="false" PointConfig="0x0" PointType="0xc1"/>
+     <OUT Func="OUT" Id="U50" Name="HOLDEMAGNET" AcId="FP3" ModbusIdx="0" Delay="PT0S" OffOnReset="false" PointConfig="0x0" PointType="0xc1"/>
+     <OUT Func="FWRE" Id="U51" Name="FEILUTGANG" AcId="FP4" ModbusIdx="0" Delay="PT0S" OffOnReset="false" PointConfig="0x0" PointType="0xc1"/>
+    </OUT_MODULE>
+   </IO_MODULES>
+   <EXTERNAL>
+    <AUTROCOM Func="TCP" Id="U52" Name="REMOTE PILOT" AcId="OP2" LocalMode="Local Mode Only" LocalModeReport="Report as Service Fault">
+     <LINK>
+      <TCP OwnIP="192.168.0.2" ClientIP="0.0.0.0" Port="25500" SubNetMask="255.255.255.0" Gateway="192.168.0.1" Interface="Ethernet1" Type="TCP_IP"/>
+     </LINK>
+    </AUTROCOM>
+   </EXTERNAL>
+   <INTERNAL_SW>
+    <AUTROSAF_4>
+     <SW_COMPONENT Id="U53" Name="MainCpu" AcId="CO1" Func="SW"/>
+     <SW_COMPONENT Func="SW" Id="U3" Name="BLC_Eq" AcId="BQ1"/>
+     <SW_COMPONENT Func="SW" Id="U54" Name="Computer Controller" AcId="co1"/>
+     <SW_COMPONENT Func="SW" Id="U55" Name="Router" AcId="rt1"/>
+     <SW_COMPONENT Func="SW" Id="U56" Name="Operator Panel Equipment" AcId="OP1"/>
+     <SW_COMPONENT Func="SW" Id="U57" Name="BLC Controller" AcId="bc1"/>
+     <SW_COMPONENT Func="SW" Id="U58" Name="Loop Controller" AcId="dl1"/>
+     <SW_COMPONENT Func="SW" Id="U59" Name="Point Controller" AcId="pt1"/>
+     <SW_COMPONENT Func="SW" Id="U60" Name="FAD Controller" AcId="fd1"/>
+     <SW_COMPONENT Func="SW" Id="U61" Name="FPE Controller" AcId="fp1"/>
+     <SW_COMPONENT Func="SW" Id="U62" Name="Power Controller" AcId="pw1"/>
+     <SW_COMPONENT Func="SW" Id="U63" Name="OP Controller" AcId="op1"/>
+     <SW_COMPONENT Func="SW" Id="U64" Name="OZ Controller" AcId="oz1"/>
+     <SW_COMPONENT Func="SW" Id="U65" Name="DZ Controller" AcId="dz1"/>
+     <SW_COMPONENT Func="SW" Id="U66" Name="AZ Controller" AcId="az1"/>
+     <SW_COMPONENT Func="SW" Id="U67" Name="Domain Controller" AcId="do1"/>
+     <SW_COMPONENT Func="SW" Id="U68" Name="Log Controller" AcId="lc1"/>
+    </AUTROSAF_4>
+   </INTERNAL_SW>
+  </PANEL>
+ </DOMAIN>
+ <LOGIC>
+  <OZ Id="U69" Name="KOLHEIVEGEN 10" AcId="OZ1">
+   <INDICATORS>
+    <INDICATOR Id="U70" Name="LED_ALARM-KOLHEIVEGEN 10" Func="LED_ALARM"/>
+    <INDICATOR Id="U71" Name="LED_PREALARM-KOLHEIVEGEN 10" Func="LED_PREALARM"/>
+    <INDICATOR Id="U72" Name="LED_FAULT-KOLHEIVEGEN 10" Func="LED_FAULT"/>
+    <INDICATOR Id="U73" Name="LED_DISABLE-KOLHEIVEGEN 10" Func="LED_DISABLE"/>
+    <INDICATOR Id="U74" Name="CONDITION-KOLHEIVEGEN 10" Func="CONDITION"/>
+   </INDICATORS>
+   <PANEL>
+    <REF Id="U2"/>
+   </PANEL>
+  </OZ>
+  <DZ Id="U75" Name="BAD LEILIGHET 1" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ1">
+   <IN>
+    <REF Id="U13"/>
+   </IN>
+  </DZ>
+  <DZ Id="U76" Name="SOVEROM LEILIGHET 1" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ2">
+   <IN>
+    <REF Id="U14"/>
+   </IN>
+  </DZ>
+  <DZ Id="U77" Name="STUE LEILIGHET 1" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ3">
+   <IN>
+    <REF Id="U16"/>
+   </IN>
+  </DZ>
+  <DZ Id="U78" Name="STUE LEILIGHET 2" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ4">
+   <IN>
+    <REF Id="U17"/>
+   </IN>
+  </DZ>
+  <DZ Id="U79" Name="SOVEROM LEILIGHET 2" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ5">
+   <IN>
+    <REF Id="U18"/>
+   </IN>
+  </DZ>
+  <DZ Id="U80" Name="BAD LEILIGHET 2" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ6">
+   <IN>
+    <REF Id="U20"/>
+   </IN>
+  </DZ>
+  <DZ Id="U81" Name="BAD LEILIGHET 3" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ7">
+   <IN>
+    <REF Id="U21"/>
+   </IN>
+  </DZ>
+  <DZ Id="U82" Name="SOVEROM LEILIGHET 3" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ8">
+   <IN>
+    <REF Id="U22"/>
+   </IN>
+  </DZ>
+  <DZ Id="U83" Name="STUE LEILIGHET 3" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ9">
+   <IN>
+    <REF Id="U24"/>
+   </IN>
+  </DZ>
+  <DZ Id="U84" Name="STUE LEILIGHET 4" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZA">
+   <IN>
+    <REF Id="U25"/>
+   </IN>
+  </DZ>
+  <DZ Id="U85" Name="SOVEROM LEILIGHET 4" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZB">
+   <IN>
+    <REF Id="U26"/>
+   </IN>
+  </DZ>
+  <DZ Id="U86" Name="BAD LEILIGHET 4" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZC">
+   <IN>
+    <REF Id="U28"/>
+   </IN>
+  </DZ>
+  <DZ Id="U87" Name="MANUELL MELDER GANG NORD" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZD">
+   <IN>
+    <REF Id="U32"/>
+   </IN>
+  </DZ>
+  <DZ Id="U88" Name="GARDEROBE" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZE">
+   <IN>
+    <REF Id="U33"/>
+   </IN>
+  </DZ>
+  <DZ Id="U89" Name="KONTOR-OPPHOLDSROM" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZF">
+   <IN>
+    <REF Id="U34"/>
+   </IN>
+  </DZ>
+  <DZ Id="U90" Name="GANG NORD" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ10">
+   <IN>
+    <REF Id="U35"/>
+   </IN>
+  </DZ>
+  <DZ Id="U91" Name="MANUELL MELDER HOVEDINNGANG" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ11">
+   <IN>
+    <REF Id="U37"/>
+   </IN>
+  </DZ>
+  <DZ Id="U92" Name="VASKEROM" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ12">
+   <IN>
+    <REF Id="U38"/>
+   </IN>
+  </DZ>
+  <DZ Id="U93" Name="KJØKKEN" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ13">
+   <IN>
+    <REF Id="U39"/>
+   </IN>
+  </DZ>
+  <DZ Id="U94" Name="BOD" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ14">
+   <IN>
+    <REF Id="U40"/>
+   </IN>
+  </DZ>
+  <DZ Id="U95" Name="GANG SØR" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ15">
+   <IN>
+    <REF Id="U41"/>
+   </IN>
+  </DZ>
+  <DZ Id="U96" Name="STUE-SPISEROM" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ16">
+   <IN>
+    <REF Id="U43"/>
+   </IN>
+  </DZ>
+  <DZ Id="U97" Name="MANUELL MELDER GANG SØR" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ17">
+   <IN>
+    <REF Id="U44"/>
+   </IN>
+  </DZ>
+  <DZ Id="U98" Name="TEKN ROM LOFT" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ18">
+   <IN>
+    <REF Id="U45"/>
+   </IN>
+  </DZ>
+  <DZ Id="U99" Name="SPRINKLER" Oz="U69" Func="IMM" T1="PT120S" T2="PT480S" AcId="DZ19">
+   <IN>
+    <REF Id="U46"/>
+   </IN>
+  </DZ>
+  <AZ Id="U100" Name="ALLE ALARMORGAN" Oz="U69" AcId="AZ1">
+   <OUT>
+    <REF Id="U15"/>
+    <REF Id="U19"/>
+    <REF Id="U23"/>
+    <REF Id="U27"/>
+    <REF Id="U36"/>
+    <REF Id="U42"/>
+   </OUT>
+   <DZ_IN>
+    <REF Id="U75" Qual="false"/>
+    <REF Id="U76" Qual="false"/>
+    <REF Id="U77" Qual="false"/>
+    <REF Id="U78" Qual="false"/>
+    <REF Id="U79" Qual="false"/>
+    <REF Id="U80" Qual="false"/>
+    <REF Id="U81" Qual="false"/>
+    <REF Id="U82" Qual="false"/>
+    <REF Id="U83" Qual="false"/>
+    <REF Id="U84" Qual="false"/>
+    <REF Id="U85" Qual="false"/>
+    <REF Id="U86" Qual="false"/>
+    <REF Id="U87" Qual="false"/>
+    <REF Id="U88" Qual="false"/>
+    <REF Id="U89" Qual="false"/>
+    <REF Id="U90" Qual="false"/>
+    <REF Id="U91" Qual="false"/>
+    <REF Id="U92" Qual="false"/>
+    <REF Id="U93" Qual="false"/>
+    <REF Id="U94" Qual="false"/>
+    <REF Id="U95" Qual="false"/>
+    <REF Id="U96" Qual="false"/>
+    <REF Id="U97" Qual="false"/>
+    <REF Id="U98" Qual="false"/>
+    <REF Id="U99" Qual="false"/>
+   </DZ_IN>
+  </AZ>
+  <ACT_GRP Id="U101" Name="ALLE DZ" Oz="U69" Delay="PT0S" Func="DZ_ACT">
+   <OUT>
+    <REF Id="U50"/>
+   </OUT>
+   <VOTE_GRP Count="1">
+    <IN>
+     <REF Id="U75">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U80">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U81">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U86">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U94">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U90">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U95">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U88">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U93">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U89">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U87">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U97">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U91">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U76">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U79">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U82">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U85">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U99">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U77">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U78">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U83">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U84">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U96">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U98">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+     <REF Id="U92">
+      <DZ_IN Value="ALARM_3"/>
+     </REF>
+    </IN>
+   </VOTE_GRP>
+  </ACT_GRP>
+  <FARE_ACT_GRP Id="U102" Name="BRANNVESENET_ActGrp">
+   <OUT>
+    <REF Id="U48"/>
+   </OUT>
+   <OZ>
+    <REF Id="U69"/>
+   </OZ>
+  </FARE_ACT_GRP>
+  <AGREGATION_GRP Id="U103" Name="KOLHEIVEGEN 10_AlarmAct" Oz="U69" Func="ALARM"/>
+ </LOGIC>
+</AUTRO_SAFE>

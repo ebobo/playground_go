@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<FaultDirectory Version="1.0.0">
+<FaultClass ClassID="0">
+<Class Language="Norwegian" Text="Prg.vare intern"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Ugyldig type kvittering"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Ugyldig type enhet"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Ugyldig format"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Ugyldig kommandotypr"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Ugyldig data"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Ugyldig inndata"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Temp ikke funnet"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Temp overflyt"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Liste ikke funnet"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Liste eksisterer allerede"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Lager ikke funnet"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="Data ikke funnet"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Feil plassering"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Ugyldig teststatus"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="Ulovlig tilstandsmaskinshendelse"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="Ulovlig init kategori"/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="Maksimaltid overskredet"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="Maksimaltid i ferd med å bli overskredet"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="Funksjon ikke implementert"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="Ukjent enhetsid."/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="Midlertidig data ikke slettet"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="Diverse feil"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="1">
+<Class Language="Norwegian" Text="Konfigurasjon"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Konfigurasjonsdata ikke funnet"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Konfigurasjonsdatafeil"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Sjekksumfeil i verdier"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Sjekksumfeil i SCD"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Sjekksumfeil i ACLIB obj."/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Sjekksumfeil i AC binær konfig"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Sjekksumfeil i bin adresse"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Sjekksumfeil i katalog"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Sjekksumfeil i kode"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Oppdaterer EEPROM"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="2">
+<Class Language="Norwegian" Text="Utstyr"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Tid utløpt"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Tid utløpt for init"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Tid utløpt for master tilbakestill"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Tid utløpt for selvtest"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Tid utløpt for utkoble klokker"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Tid utløpt for reaktivering"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Tid utløpt for service"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Tid utløpt for alarmsimulering"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Tid utløpt for sonetest"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Tid utløpt for bestem tid"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Innkobling mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="Utkobling mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Verdier ikke funnet"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Ingen sjekk funnet"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="Init mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="Bestemme tid mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="Skriverfeil"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="Front kort feil"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="Pågår etter tid utløpt"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="Svar i feil rekkefølge"/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="Watchdog mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="Sjekksum verifisering for gammel"/>
+</FaultReason>
+<FaultReason ReasonID="22">
+<Reason Language="Norwegian" Text="OP panel utkobling mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="23">
+<Reason Language="Norwegian" Text="Tid utløpt for OS aktivering"/>
+</FaultReason>
+<FaultReason ReasonID="24">
+<Reason Language="Norwegian" Text="Feil dynamisk minne"/>
+</FaultReason>
+<FaultReason ReasonID="25">
+<Reason Language="Norwegian" Text="Betjeningstast sitter fast"/>
+</FaultReason>
+<FaultReason ReasonID="26">
+<Reason Language="Norwegian" Text="RAM-feil på EAC-kort"/>
+</FaultReason>
+<FaultReason ReasonID="27">
+<Reason Language="Norwegian" Text="RAM-feil på BSR-kort"/>
+</FaultReason>
+<FaultReason ReasonID="28">
+<Reason Language="Norwegian" Text="Tid utløpt for demping av lydgivere"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="3">
+<Class Language="Norwegian" Text="Avvist"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="I selvtest"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="I SVD test"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Ikke i SVD test"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="I service"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Ikke i service"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="I sonetest"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Ikke i sonetest"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="I feil"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="I direktemodus"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Ikke i direktemodus"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Ikke normal drift"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="Ikke initialisert"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Ikke i normal drift"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="Støtter ikke temperaturmåling"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="Punktalarm utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="Komponent utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="Aktivert"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="Klokker ikke avstillt"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="Operasjonssone i vent"/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="BLC opptatt"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="Sløyfe opptatt"/>
+</FaultReason>
+<FaultReason ReasonID="22">
+<Reason Language="Norwegian" Text="Sløyfeenhet opptatt"/>
+</FaultReason>
+<FaultReason ReasonID="23">
+<Reason Language="Norwegian" Text="Innkobling pågår"/>
+</FaultReason>
+<FaultReason ReasonID="24">
+<Reason Language="Norwegian" Text="Utkobling pågår"/>
+</FaultReason>
+<FaultReason ReasonID="25">
+<Reason Language="Norwegian" Text="Aktivering pågår"/>
+</FaultReason>
+<FaultReason ReasonID="26">
+<Reason Language="Norwegian" Text="Kommando pågår allerede"/>
+</FaultReason>
+<FaultReason ReasonID="27">
+<Reason Language="Norwegian" Text="Operasjonssone kommando utføres"/>
+</FaultReason>
+<FaultReason ReasonID="28">
+<Reason Language="Norwegian" Text="Operasjonssone kommando utføres ikke"/>
+</FaultReason>
+<FaultReason ReasonID="29">
+<Reason Language="Norwegian" Text="Annen Operasjonssone utføres"/>
+</FaultReason>
+<FaultReason ReasonID="30">
+<Reason Language="Norwegian" Text="Kommando venter allerede"/>
+</FaultReason>
+<FaultReason ReasonID="31">
+<Reason Language="Norwegian" Text="Sjekk utføres allerede"/>
+</FaultReason>
+<FaultReason ReasonID="32">
+<Reason Language="Norwegian" Text="SVD kommando venter allerede"/>
+</FaultReason>
+<FaultReason ReasonID="33">
+<Reason Language="Norwegian" Text="Selvtest utføres allerede"/>
+</FaultReason>
+<FaultReason ReasonID="34">
+<Reason Language="Norwegian" Text="Alarm stimulering venter"/>
+</FaultReason>
+<FaultReason ReasonID="35">
+<Reason Language="Norwegian" Text="Ping utføres allerede"/>
+</FaultReason>
+<FaultReason ReasonID="36">
+<Reason Language="Norwegian" Text="Kø redusert"/>
+</FaultReason>
+<FaultReason ReasonID="37">
+<Reason Language="Norwegian" Text="Ikke tilstrekkelig prioritet"/>
+</FaultReason>
+<FaultReason ReasonID="38">
+<Reason Language="Norwegian" Text="Annen kilde"/>
+</FaultReason>
+<FaultReason ReasonID="39">
+<Reason Language="Norwegian" Text="Ugyldig kommandokilde"/>
+</FaultReason>
+<FaultReason ReasonID="40">
+<Reason Language="Norwegian" Text="Vil bli aktivert"/>
+</FaultReason>
+<FaultReason ReasonID="41">
+<Reason Language="Norwegian" Text="Deteksjonssone har manuell(e) melder(e)"/>
+</FaultReason>
+<FaultReason ReasonID="42">
+<Reason Language="Norwegian" Text="Deteksjonssone har kun manuelle meldere"/>
+</FaultReason>
+<FaultReason ReasonID="43">
+<Reason Language="Norwegian" Text="Kommando støttes ikke"/>
+</FaultReason>
+<FaultReason ReasonID="44">
+<Reason Language="Norwegian" Text="Ikke toppnivå Operasjonssone"/>
+</FaultReason>
+<FaultReason ReasonID="45">
+<Reason Language="Norwegian" Text="Sjekk alarmstatus først"/>
+</FaultReason>
+<FaultReason ReasonID="46">
+<Reason Language="Norwegian" Text="Ingen SOLAS forsinkelse"/>
+</FaultReason>
+<FaultReason ReasonID="47">
+<Reason Language="Norwegian" Text="Utkoblingstid redusert"/>
+</FaultReason>
+<FaultReason ReasonID="48">
+<Reason Language="Norwegian" Text="Kommando avvist"/>
+</FaultReason>
+<FaultReason ReasonID="49">
+<Reason Language="Norwegian" Text="Passord ikke definert"/>
+</FaultReason>
+<FaultReason ReasonID="50">
+<Reason Language="Norwegian" Text="Passord utløpt"/>
+</FaultReason>
+<FaultReason ReasonID="51">
+<Reason Language="Norwegian" Text="Feil passord"/>
+</FaultReason>
+<FaultReason ReasonID="52">
+<Reason Language="Norwegian" Text="Ingen enhet påvirket"/>
+</FaultReason>
+<FaultReason ReasonID="53">
+<Reason Language="Norwegian" Text="Initialisering pågår allerede"/>
+</FaultReason>
+<FaultReason ReasonID="54">
+<Reason Language="Norwegian" Text="LSN ledig"/>
+</FaultReason>
+<FaultReason ReasonID="55">
+<Reason Language="Norwegian" Text="Ingen klokker aktivert grunnet alarm"/>
+</FaultReason>
+<FaultReason ReasonID="56">
+<Reason Language="Norwegian" Text="Ikke tillatt"/>
+</FaultReason>
+<FaultReason ReasonID="57">
+<Reason Language="Norwegian" Text="Operatørpanelrespons avvist"/>
+</FaultReason>
+<FaultReason ReasonID="58">
+<Reason Language="Norwegian" Text="Utgang kortsluttet"/>
+</FaultReason>
+<FaultReason ReasonID="59">
+<Reason Language="Norwegian" Text="*Ugyldig"/>
+</FaultReason>
+<FaultReason ReasonID="60">
+<Reason Language="Norwegian" Text="Annen kommando utføres"/>
+</FaultReason>
+<FaultReason ReasonID="61">
+<Reason Language="Norwegian" Text="Ulovlig passord"/>
+</FaultReason>
+<FaultReason ReasonID="62">
+<Reason Language="Norwegian" Text="Topp nivå Operasjonssonekontrolle nede"/>
+</FaultReason>
+<FaultReason ReasonID="63">
+<Reason Language="Norwegian" Text="Undertrykkingstid redusert"/>
+</FaultReason>
+<FaultReason ReasonID="64">
+<Reason Language="Norwegian" Text="Punkt individuelt undertrykt"/>
+</FaultReason>
+<FaultReason ReasonID="65">
+<Reason Language="Norwegian" Text="Punkt er manuell melder"/>
+</FaultReason>
+<FaultReason ReasonID="66">
+<Reason Language="Norwegian" Text="Manuelt aktivert"/>
+</FaultReason>
+<FaultReason ReasonID="67">
+<Reason Language="Norwegian" Text="Påventende aktivering"/>
+</FaultReason>
+<FaultReason ReasonID="68">
+<Reason Language="Norwegian" Text="Manuelt overstyrt"/>
+</FaultReason>
+<FaultReason ReasonID="69">
+<Reason Language="Norwegian" Text="Ulovlig verdi/type for utgang"/>
+</FaultReason>
+<FaultReason ReasonID="70">
+<Reason Language="Norwegian" Text="Ikke i bruk"/>
+</FaultReason>
+<FaultReason ReasonID="71">
+<Reason Language="Norwegian" Text="I alarm"/>
+</FaultReason>
+<FaultReason ReasonID="72">
+<Reason Language="Norwegian" Text="Ingen konfigurasjonsdata"/>
+</FaultReason>
+<FaultReason ReasonID="73">
+<Reason Language="Norwegian" Text="OK men fremdeles enkeltvis utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="74">
+<Reason Language="Norwegian" Text="OK men fremdeles eksternt utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="75">
+<Reason Language="Norwegian" Text="OK men fremdeles sone utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="76">
+<Reason Language="Norwegian" Text="OK men fremdeles alarm utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="77">
+<Reason Language="Norwegian" Text="OK men noen utkoblinger gjenstår"/>
+</FaultReason>
+<FaultReason ReasonID="78">
+<Reason Language="Norwegian" Text="Ingen tilsvarende utkobling"/>
+</FaultReason>
+<FaultReason ReasonID="79">
+<Reason Language="Norwegian" Text="Annen kommando gjenopptatt"/>
+</FaultReason>
+<FaultReason ReasonID="80">
+<Reason Language="Norwegian" Text="Overflødig kommando"/>
+</FaultReason>
+<FaultReason ReasonID="81">
+<Reason Language="Norwegian" Text="OK men sløyfe fremdeles utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="82">
+<Reason Language="Norwegian" Text="Ulovelig sløyfe type"/>
+</FaultReason>
+<FaultReason ReasonID="83">
+<Reason Language="Norwegian" Text="Sløyfe utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="84">
+<Reason Language="Norwegian" Text="Ugyldig konfigurasjonsdata"/>
+</FaultReason>
+<FaultReason ReasonID="85">
+<Reason Language="Norwegian" Text="Aktiv(e) timer(e)"/>
+</FaultReason>
+<FaultReason ReasonID="86">
+<Reason Language="Norwegian" Text="Ikke aktiv(e) timer(e)"/>
+</FaultReason>
+<FaultReason ReasonID="87">
+<Reason Language="Norwegian" Text="*"/>
+</FaultReason>
+<FaultReason ReasonID="88">
+<Reason Language="Norwegian" Text="OK men fremdeles eksternt utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="89">
+<Reason Language="Norwegian" Text="Kommando feilet"/>
+</FaultReason>
+<FaultReason ReasonID="90">
+<Reason Language="Norwegian" Text="Alarm aktivering utføres"/>
+</FaultReason>
+<FaultReason ReasonID="91">
+<Reason Language="Norwegian" Text="OK men fremdeles aksessnivå utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="92">
+<Reason Language="Norwegian" Text="OK men utkoblet fra overstyringsbryter"/>
+</FaultReason>
+<FaultReason ReasonID="93">
+<Reason Language="Norwegian" Text="OK men enhet aktivert av annen kilde"/>
+</FaultReason>
+<FaultReason ReasonID="94">
+<Reason Language="Norwegian" Text="OK men fremdeles utkoblet av enhet"/>
+</FaultReason>
+<FaultReason ReasonID="95">
+<Reason Language="Norwegian" Text="OK men fremdeles utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="96">
+<Reason Language="Norwegian" Text="OK men feil på enhet"/>
+</FaultReason>
+<FaultReason ReasonID="97">
+<Reason Language="Norwegian" Text="Parameternummer er ikke definert"/>
+</FaultReason>
+<FaultReason ReasonID="98">
+<Reason Language="Norwegian" Text="Ugyldig verdi"/>
+</FaultReason>
+<FaultReason ReasonID="99">
+<Reason Language="Norwegian" Text="Enhet i standby"/>
+</FaultReason>
+<FaultReason ReasonID="100">
+<Reason Language="Norwegian" Text="Ikke Dual Safety System"/>
+</FaultReason>
+<FaultReason ReasonID="101">
+<Reason Language="Norwegian" Text="OK men vertsenhet fremdeles utkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="102">
+<Reason Language="Norwegian" Text="Vertsenhet utkoblet"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="4">
+<Class Language="Norwegian" Text="Prg.vare kommando"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="OS kommando mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="OS kommando avvist"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="OS kommando tid utløpt"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="OS kommando pågår allerede"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="SV test pågår allerede"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Ping bekreftelse for sein"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Komponent svarer ikke"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Oppstart bekreftelse for sein"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Oppstart bekreftelse ikke mottatt"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Oppstart feil"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Komponentbekreftelse tid utløpt"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="Tomt buffer på mottak av meld."/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Feil ID enhet på stakk"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Tomt buffer ved tid utløpt"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="Feil bufferformat"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="Tomt buffer på sending av meld."/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="Feil kommandotype i buffer"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="Tomt buffer"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="I/O utstyrskommando mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="Sløyfeutstyrskommando mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="Oppstartskommando mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="Kommando mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="22">
+<Reason Language="Norwegian" Text="Kontrollerer ikke OS toppnivå"/>
+</FaultReason>
+<FaultReason ReasonID="23">
+<Reason Language="Norwegian" Text="Automatisk int mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="24">
+<Reason Language="Norwegian" Text="Automatisk int avvist"/>
+</FaultReason>
+<FaultReason ReasonID="25">
+<Reason Language="Norwegian" Text="Automatisk init utløpt tid"/>
+</FaultReason>
+<FaultReason ReasonID="26">
+<Reason Language="Norwegian" Text="Kommando ack utløpt tid"/>
+</FaultReason>
+<FaultReason ReasonID="27">
+<Reason Language="Norwegian" Text="Ingen scheduler kommando funnet"/>
+</FaultReason>
+<FaultReason ReasonID="28">
+<Reason Language="Norwegian" Text="Scheduler kommando mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="29">
+<Reason Language="Norwegian" Text="Scheduler kommando avvist"/>
+</FaultReason>
+<FaultReason ReasonID="30">
+<Reason Language="Norwegian" Text="Operatørpanel ikke i reset"/>
+</FaultReason>
+<FaultReason ReasonID="31">
+<Reason Language="Norwegian" Text="Ping ikke mottatt"/>
+</FaultReason>
+<FaultReason ReasonID="32">
+<Reason Language="Norwegian" Text="Lokal init mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="33">
+<Reason Language="Norwegian" Text="Computer svarer ikke"/>
+</FaultReason>
+<FaultReason ReasonID="34">
+<Reason Language="Norwegian" Text="Ingen kmd aktiv på kvittering"/>
+</FaultReason>
+<FaultReason ReasonID="35">
+<Reason Language="Norwegian" Text="Ingen kmd aktiv på utløpt tid"/>
+</FaultReason>
+<FaultReason ReasonID="36">
+<Reason Language="Norwegian" Text="Komm. format ulik på utløpt tid"/>
+</FaultReason>
+<FaultReason ReasonID="37">
+<Reason Language="Norwegian" Text="Kommando ikke utført før tid utløpt"/>
+</FaultReason>
+<FaultReason ReasonID="38">
+<Reason Language="Norwegian" Text="Maks utførelsesforsøk overskredet"/>
+</FaultReason>
+<FaultReason ReasonID="39">
+<Reason Language="Norwegian" Text="Tid utløpt for OS kmd"/>
+</FaultReason>
+<FaultReason ReasonID="40">
+<Reason Language="Norwegian" Text="Ingen respons fra komponent"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="5">
+<Class Language="Norwegian" Text="Loggbok"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Åpner loggbok"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Skrive til loggbok"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Leser fra skrivebok"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="6">
+<Class Language="Norwegian" Text="Kommunikasjon"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Pakkefeil"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="ACLIB status"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Adresse ikke funnet"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="ID enhet mottaker ikke funnet"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Feil sjekksum på ALCOM"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Feil ramme på ALCOM"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="ALCOM opptatt"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Ikke svar fra ALCOM"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Tid utløpt fra ALCOM"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Send ACLIB objektfeil"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="ACLIB systemkall mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="ACLIB minneallokering mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="ACLIB lås detektert"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Feil i ACLIB konfigurasjonsdata"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="ACLIB datamottaksfeil"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="ACLIB gjentagelse detektert"/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="ACLIB pakkelengdefeil"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="ACLIB pakke ukjent objekt ID"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="ACLIB listeobjekt tid utløpt"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="ACLIB list objektsekvens"/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="ACLIB død tikobling detektert"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="ACLIB ingen rute funnet"/>
+</FaultReason>
+<FaultReason ReasonID="22">
+<Reason Language="Norwegian" Text="Lon nettverk kortslutning"/>
+</FaultReason>
+<FaultReason ReasonID="23">
+<Reason Language="Norwegian" Text="Lon nettverksbrudd"/>
+</FaultReason>
+<FaultReason ReasonID="24">
+<Reason Language="Norwegian" Text="Lon nettverk ute av drift"/>
+</FaultReason>
+<FaultReason ReasonID="25">
+<Reason Language="Norwegian" Text="Panel svarer ikke"/>
+</FaultReason>
+<FaultReason ReasonID="26">
+<Reason Language="Norwegian" Text="Lavnivå senderfeil (ALPP)"/>
+</FaultReason>
+<FaultReason ReasonID="27">
+<Reason Language="Norwegian" Text="Lavnivå sendersekvensfeil (ALPP)"/>
+</FaultReason>
+<FaultReason ReasonID="28">
+<Reason Language="Norwegian" Text="Lavnivå kommunikasjonsfeil (ALPP)"/>
+</FaultReason>
+<FaultReason ReasonID="29">
+<Reason Language="Norwegian" Text="Kommunikasjon tapt"/>
+</FaultReason>
+<FaultReason ReasonID="30">
+<Reason Language="Norwegian" Text="Protokolloversetterfeil"/>
+</FaultReason>
+<FaultReason ReasonID="31">
+<Reason Language="Norwegian" Text="Eksternmaskinfeil"/>
+</FaultReason>
+<FaultReason ReasonID="32">
+<Reason Language="Norwegian" Text="Protokolloversetteradvarsel"/>
+</FaultReason>
+<FaultReason ReasonID="33">
+<Reason Language="Norwegian" Text="Eksternmaskinadvarsel"/>
+</FaultReason>
+<FaultReason ReasonID="34">
+<Reason Language="Norwegian" Text="Lokal modus"/>
+</FaultReason>
+<FaultReason ReasonID="35">
+<Reason Language="Norwegian" Text="Feil i mottatte data"/>
+</FaultReason>
+<FaultReason ReasonID="36">
+<Reason Language="Norwegian" Text="Feil i AutroNet-melding"/>
+</FaultReason>
+<FaultReason ReasonID="37">
+<Reason Language="Norwegian" Text="Feil i AutroCom-melding"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="7">
+<Class Language="Norwegian" Text="Inn/Ut"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Feil på enhet"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Svarer ikke"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Kortslutning"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Brudd"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Batterspenning &gt; 29,5V"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Batterispenning &lt; 25,0V"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Batterispenning &lt; 20,0V"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Batterispenning &lt; 24,5V (test)"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Batterispenning &lt; 18,0V (test)"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Jordfeil til pluss"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Jordfeil til minus"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="Modul temperatur høy"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Modul temperatur lav"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Feil detektert"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="Nettfeil"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="Ugyldig måleresultat"/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="Feil posisjon på rele"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="Intern spenning lav"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="Ekstern feil"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="Kortslutning inngang 1"/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="Brudd inngang 1"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="Kortslutning inngang 2"/>
+</FaultReason>
+<FaultReason ReasonID="22">
+<Reason Language="Norwegian" Text="Brudd inngang 2"/>
+</FaultReason>
+<FaultReason ReasonID="23">
+<Reason Language="Norwegian" Text="Nitrogentrykk lavt"/>
+</FaultReason>
+<FaultReason ReasonID="24">
+<Reason Language="Norwegian" Text="Halontrykk høyt"/>
+</FaultReason>
+<FaultReason ReasonID="25">
+<Reason Language="Norwegian" Text="Kortslutning utgang 1"/>
+</FaultReason>
+<FaultReason ReasonID="26">
+<Reason Language="Norwegian" Text="Brudd utgang 1"/>
+</FaultReason>
+<FaultReason ReasonID="27">
+<Reason Language="Norwegian" Text="Ekstern kraft mangler"/>
+</FaultReason>
+<FaultReason ReasonID="28">
+<Reason Language="Norwegian" Text="Manuel aktivering mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="29">
+<Reason Language="Norwegian" Text="Automatisk aktivering mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="30">
+<Reason Language="Norwegian" Text="Generell feil"/>
+</FaultReason>
+<FaultReason ReasonID="31">
+<Reason Language="Norwegian" Text="Støtter ikke batteriladertest"/>
+</FaultReason>
+<FaultReason ReasonID="32">
+<Reason Language="Norwegian" Text="Batterilader feilet"/>
+</FaultReason>
+<FaultReason ReasonID="33">
+<Reason Language="Norwegian" Text="Ukjent, ikke utførbar parametersetting"/>
+</FaultReason>
+<FaultReason ReasonID="34">
+<Reason Language="Norwegian" Text="Redundant kraftforsyning mangler"/>
+</FaultReason>
+<FaultReason ReasonID="35">
+<Reason Language="Norwegian" Text="AD feil"/>
+</FaultReason>
+<FaultReason ReasonID="36">
+<Reason Language="Norwegian" Text="Høy kapasitans inngang1"/>
+</FaultReason>
+<FaultReason ReasonID="37">
+<Reason Language="Norwegian" Text="Ekstern power feil"/>
+</FaultReason>
+<FaultReason ReasonID="38">
+<Reason Language="Norwegian" Text="Ekstern power feil når aktivert"/>
+</FaultReason>
+<FaultReason ReasonID="39">
+<Reason Language="Norwegian" Text="HW feil"/>
+</FaultReason>
+<FaultReason ReasonID="40">
+<Reason Language="Norwegian" Text="Feil i koden"/>
+</FaultReason>
+<FaultReason ReasonID="41">
+<Reason Language="Norwegian" Text="Internfeil"/>
+</FaultReason>
+<FaultReason ReasonID="42">
+<Reason Language="Norwegian" Text="Høy kapasitans inngang2"/>
+</FaultReason>
+<FaultReason ReasonID="43">
+<Reason Language="Norwegian" Text="Sløyfespenning utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="44">
+<Reason Language="Norwegian" Text="Betjeningstast sitter fast"/>
+</FaultReason>
+<FaultReason ReasonID="45">
+<Reason Language="Norwegian" Text="Temperatur utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="46">
+<Reason Language="Norwegian" Text="Intern FLASH-feil"/>
+</FaultReason>
+<FaultReason ReasonID="47">
+<Reason Language="Norwegian" Text="Kommunikasjonsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="48">
+<Reason Language="Norwegian" Text="Displayfeil"/>
+</FaultReason>
+<FaultReason ReasonID="49">
+<Reason Language="Norwegian" Text="Lydenhet: Kortslutning"/>
+</FaultReason>
+<FaultReason ReasonID="50">
+<Reason Language="Norwegian" Text="Lydenhet: Ikke tilkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="51">
+<Reason Language="Norwegian" Text="Lydenhet: Resonansfeil"/>
+</FaultReason>
+<FaultReason ReasonID="52">
+<Reason Language="Norwegian" Text="Lydenhet: Spenningsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="53">
+<Reason Language="Norwegian" Text="Lysenhet: Spenningsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="54">
+<Reason Language="Norwegian" Text="Lysenhet: Elementfeil"/>
+</FaultReason>
+<FaultReason ReasonID="55">
+<Reason Language="Norwegian" Text="Selvtest: Tid utløpt"/>
+</FaultReason>
+<FaultReason ReasonID="56">
+<Reason Language="Norwegian" Text="Taleenhet: Minnefeil"/>
+</FaultReason>
+<FaultReason ReasonID="57">
+<Reason Language="Norwegian" Text="Tilleggskort mangler"/>
+</FaultReason>
+<FaultReason ReasonID="58">
+<Reason Language="Norwegian" Text="Ikke kompatibel med AutroGuard"/>
+</FaultReason>
+<FaultReason ReasonID="59">
+<Reason Language="Norwegian" Text="Tilleggskort: Ute av drift"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="8">
+<Class Language="Norwegian" Text="Sløyfe"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Manglende svar ved alarm"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Sløyfebrudd på plusskrets"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Sløyfebrudd på minuskrets"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Kortslutning på sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Kommunikasjonsproblemer"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="*Feil topologi"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="*Tilbakestill C-adressefeil"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="*Spur violation"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Ulovlige sløyfekoblinger"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Ny ukjent enhet"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Manglende enhet"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="Dobbeladressering"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Adresseringsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Enhet på feil sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="Like produksjonsnummer"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="Manglende data på enhet (kjent top.)"/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="Manglende data på enhet (ukj. top.)"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="Enhet i feil posisjon (kjent top.)"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="Enhet i feil posisjon (ukj. top.)"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="Feil enhet (kjent top.)"/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="Feil plassering (ukj. top.)"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="Sløyfe finnes ikke"/>
+</FaultReason>
+<FaultReason ReasonID="22">
+<Reason Language="Norwegian" Text="Sløyfetopologi kan være endret"/>
+</FaultReason>
+<FaultReason ReasonID="23">
+<Reason Language="Norwegian" Text="Sløyfeenhet støttes ikke"/>
+</FaultReason>
+<FaultReason ReasonID="24">
+<Reason Language="Norwegian" Text="Sløyfedriver omstartet"/>
+</FaultReason>
+<FaultReason ReasonID="25">
+<Reason Language="Norwegian" Text="Sløyfedriver funksjonsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="26">
+<Reason Language="Norwegian" Text="Modultype ikke korrekt"/>
+</FaultReason>
+<FaultReason ReasonID="27">
+<Reason Language="Norwegian" Text="Feil modul (byttet?)"/>
+</FaultReason>
+<FaultReason ReasonID="28">
+<Reason Language="Norwegian" Text="Feil modul fabrikant"/>
+</FaultReason>
+<FaultReason ReasonID="29">
+<Reason Language="Norwegian" Text="Feil antall moduler"/>
+</FaultReason>
+<FaultReason ReasonID="30">
+<Reason Language="Norwegian" Text="Funnet lukket sløyfe, ventet åpen"/>
+</FaultReason>
+<FaultReason ReasonID="31">
+<Reason Language="Norwegian" Text="Driver svarer ikke"/>
+</FaultReason>
+<FaultReason ReasonID="32">
+<Reason Language="Norwegian" Text="Standby strømtrekk for høyt"/>
+</FaultReason>
+<FaultReason ReasonID="33">
+<Reason Language="Norwegian" Text="Mistet redundans"/>
+</FaultReason>
+<FaultReason ReasonID="34">
+<Reason Language="Norwegian" Text="Kan ikke overta kontroll"/>
+</FaultReason>
+<FaultReason ReasonID="35">
+<Reason Language="Norwegian" Text="Sløyfebrudd på plusskrets"/>
+</FaultReason>
+<FaultReason ReasonID="36">
+<Reason Language="Norwegian" Text="Sløyfebrudd på minuskrets"/>
+</FaultReason>
+<FaultReason ReasonID="37">
+<Reason Language="Norwegian" Text="Parameter feil på sløyfeenhet"/>
+</FaultReason>
+<FaultReason ReasonID="38">
+<Reason Language="Norwegian" Text="Sløyfen fungerer ikke normalt"/>
+</FaultReason>
+<FaultReason ReasonID="39">
+<Reason Language="Norwegian" Text="Ukjent feil"/>
+</FaultReason>
+<FaultReason ReasonID="40">
+<Reason Language="Norwegian" Text="Sløyfen får ikke kontakt med driver?"/>
+</FaultReason>
+<FaultReason ReasonID="41">
+<Reason Language="Norwegian" Text="Sløyfebrudd på pluss el. minus krets"/>
+</FaultReason>
+<FaultReason ReasonID="42">
+<Reason Language="Norwegian" Text="Feil antall moduler (AFB)"/>
+</FaultReason>
+<FaultReason ReasonID="43">
+<Reason Language="Norwegian" Text="Ukjent eller ikke utførbart direktiv"/>
+</FaultReason>
+<FaultReason ReasonID="44">
+<Reason Language="Norwegian" Text="Tilbakest feilet. Koble sløyfen ut/inn"/>
+</FaultReason>
+<FaultReason ReasonID="45">
+<Reason Language="Norwegian" Text="Ikke operativ, sjekk aktivt system"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="9">
+<Class Language="Norwegian" Text="Punkt"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Feil på punkt"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Punkt svarer ikke"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Self Verify mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="SMV null"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Feil detektert"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Ugyldig måleresultat"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Feil posisjon på rele"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Ekstern feil"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Internspenning lav"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Kortslutning"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Lav impedanse"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="Høy impedanse"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Brudd"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Varmesignal mangler"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="Optisk signal mangler"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="Sonen inneholder punkt i feil"/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="Skjult"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="Skiten optikk"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="Delvis feilinnstilt"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="Parameter"/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="Lav spenning"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="Mye støy"/>
+</FaultReason>
+<FaultReason ReasonID="22">
+<Reason Language="Norwegian" Text="Detektor"/>
+</FaultReason>
+<FaultReason ReasonID="23">
+<Reason Language="Norwegian" Text="Lavt luftflyt"/>
+</FaultReason>
+<FaultReason ReasonID="24">
+<Reason Language="Norwegian" Text="Høyt luftflyt"/>
+</FaultReason>
+<FaultReason ReasonID="25">
+<Reason Language="Norwegian" Text="Kraftforsyning"/>
+</FaultReason>
+<FaultReason ReasonID="26">
+<Reason Language="Norwegian" Text="Isolasjon"/>
+</FaultReason>
+<FaultReason ReasonID="27">
+<Reason Language="Norwegian" Text="Generel feil"/>
+</FaultReason>
+<FaultReason ReasonID="28">
+<Reason Language="Norwegian" Text="Punkt henger i SV test"/>
+</FaultReason>
+<FaultReason ReasonID="29">
+<Reason Language="Norwegian" Text="Høy temperatur"/>
+</FaultReason>
+<FaultReason ReasonID="30">
+<Reason Language="Norwegian" Text="Senderstråle advarsel"/>
+</FaultReason>
+<FaultReason ReasonID="31">
+<Reason Language="Norwegian" Text="Send/motta"/>
+</FaultReason>
+<FaultReason ReasonID="32">
+<Reason Language="Norwegian" Text="Ukjent klasse"/>
+</FaultReason>
+<FaultReason ReasonID="33">
+<Reason Language="Norwegian" Text="Ionekammersignalfeil"/>
+</FaultReason>
+<FaultReason ReasonID="34">
+<Reason Language="Norwegian" Text="Ionekammerspenningsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="35">
+<Reason Language="Norwegian" Text="Interface: Low temperature shutdown"/>
+</FaultReason>
+<FaultReason ReasonID="36">
+<Reason Language="Norwegian" Text="Interface: Low temperature warning"/>
+</FaultReason>
+<FaultReason ReasonID="37">
+<Reason Language="Norwegian" Text="Interface: High temperature warning"/>
+</FaultReason>
+<FaultReason ReasonID="38">
+<Reason Language="Norwegian" Text="Interface: High temperature shutdown"/>
+</FaultReason>
+<FaultReason ReasonID="39">
+<Reason Language="Norwegian" Text="Interface: Low voltage shutdown"/>
+</FaultReason>
+<FaultReason ReasonID="40">
+<Reason Language="Norwegian" Text="Interface: Low voltage warning"/>
+</FaultReason>
+<FaultReason ReasonID="41">
+<Reason Language="Norwegian" Text="Interface: High voltage warning"/>
+</FaultReason>
+<FaultReason ReasonID="42">
+<Reason Language="Norwegian" Text="Interface: High voltage shutdown"/>
+</FaultReason>
+<FaultReason ReasonID="43">
+<Reason Language="Norwegian" Text="Interface: CPU supply voltage monitor"/>
+</FaultReason>
+<FaultReason ReasonID="44">
+<Reason Language="Norwegian" Text="Interface: 4-20mA current underrrange"/>
+</FaultReason>
+<FaultReason ReasonID="45">
+<Reason Language="Norwegian" Text="Interface: 4-20mA current overrange"/>
+</FaultReason>
+<FaultReason ReasonID="46">
+<Reason Language="Norwegian" Text="Interface: Memory fault"/>
+</FaultReason>
+<FaultReason ReasonID="47">
+<Reason Language="Norwegian" Text="Interface: General fault"/>
+</FaultReason>
+<FaultReason ReasonID="48">
+<Reason Language="Norwegian" Text="Sensor: General fault"/>
+</FaultReason>
+<FaultReason ReasonID="49">
+<Reason Language="Norwegian" Text="Sensor: Beam blocked"/>
+</FaultReason>
+<FaultReason ReasonID="50">
+<Reason Language="Norwegian" Text="Sensor: Dirty optics"/>
+</FaultReason>
+<FaultReason ReasonID="51">
+<Reason Language="Norwegian" Text="Sensor: Overrange"/>
+</FaultReason>
+<FaultReason ReasonID="52">
+<Reason Language="Norwegian" Text="Sensor: General warning"/>
+</FaultReason>
+<FaultReason ReasonID="53">
+<Reason Language="Norwegian" Text="Sensor: Maintnance"/>
+</FaultReason>
+<FaultReason ReasonID="54">
+<Reason Language="Norwegian" Text="Sensor: Optical integrity fault"/>
+</FaultReason>
+<FaultReason ReasonID="55">
+<Reason Language="Norwegian" Text="Sensor: Low voltage fault"/>
+</FaultReason>
+<FaultReason ReasonID="56">
+<Reason Language="Norwegian" Text="Sensor: Temperature out of range"/>
+</FaultReason>
+<FaultReason ReasonID="57">
+<Reason Language="Norwegian" Text="Sensor: High energy detected"/>
+</FaultReason>
+<FaultReason ReasonID="58">
+<Reason Language="Norwegian" Text="Sensor: High energy fault"/>
+</FaultReason>
+<FaultReason ReasonID="59">
+<Reason Language="Norwegian" Text="Sensor: Non ratio mode fault"/>
+</FaultReason>
+<FaultReason ReasonID="60">
+<Reason Language="Norwegian" Text="Sensor: Optical integ. calibration"/>
+</FaultReason>
+<FaultReason ReasonID="61">
+<Reason Language="Norwegian" Text="Sensor: No OI hi energy fault"/>
+</FaultReason>
+<FaultReason ReasonID="62">
+<Reason Language="Norwegian" Text="Sensor: Early clean optics"/>
+</FaultReason>
+<FaultReason ReasonID="63">
+<Reason Language="Norwegian" Text="Sensor: Dirty optics"/>
+</FaultReason>
+<FaultReason ReasonID="64">
+<Reason Language="Norwegian" Text="Sensor: Failure"/>
+</FaultReason>
+<FaultReason ReasonID="65">
+<Reason Language="Norwegian" Text="Sensor: Calibration fault"/>
+</FaultReason>
+<FaultReason ReasonID="66">
+<Reason Language="Norwegian" Text="Sensor: Open lamp"/>
+</FaultReason>
+<FaultReason ReasonID="67">
+<Reason Language="Norwegian" Text="Sensor: Zero drift"/>
+</FaultReason>
+<FaultReason ReasonID="68">
+<Reason Language="Norwegian" Text="General 4-20mA fault 1"/>
+</FaultReason>
+<FaultReason ReasonID="69">
+<Reason Language="Norwegian" Text="General 4-20mA fault 2"/>
+</FaultReason>
+<FaultReason ReasonID="70">
+<Reason Language="Norwegian" Text="General 4-20mA fault 3"/>
+</FaultReason>
+<FaultReason ReasonID="71">
+<Reason Language="Norwegian" Text="General 4-20mA fault 4"/>
+</FaultReason>
+<FaultReason ReasonID="72">
+<Reason Language="Norwegian" Text="General 4-20mA fault 5"/>
+</FaultReason>
+<FaultReason ReasonID="73">
+<Reason Language="Norwegian" Text="General 4-20mA fault 6"/>
+</FaultReason>
+<FaultReason ReasonID="74">
+<Reason Language="Norwegian" Text="General 4-20mA fault 7"/>
+</FaultReason>
+<FaultReason ReasonID="75">
+<Reason Language="Norwegian" Text="General 4-20mA fault 8"/>
+</FaultReason>
+<FaultReason ReasonID="76">
+<Reason Language="Norwegian" Text="General 4-20mA fault 9"/>
+</FaultReason>
+<FaultReason ReasonID="77">
+<Reason Language="Norwegian" Text="General 4-20mA fault 10"/>
+</FaultReason>
+<FaultReason ReasonID="78">
+<Reason Language="Norwegian" Text="General 4-20mA fault 11"/>
+</FaultReason>
+<FaultReason ReasonID="79">
+<Reason Language="Norwegian" Text="General 4-20mA fault 12"/>
+</FaultReason>
+<FaultReason ReasonID="80">
+<Reason Language="Norwegian" Text="General 4-20mA fault 13"/>
+</FaultReason>
+<FaultReason ReasonID="81">
+<Reason Language="Norwegian" Text="General 4-20mA fault 14"/>
+</FaultReason>
+<FaultReason ReasonID="82">
+<Reason Language="Norwegian" Text="General 4-20mA fault 15"/>
+</FaultReason>
+<FaultReason ReasonID="83">
+<Reason Language="Norwegian" Text="Alarmtest feilet"/>
+</FaultReason>
+<FaultReason ReasonID="84">
+<Reason Language="Norwegian" Text="Punkt henger i alarmtest"/>
+</FaultReason>
+<FaultReason ReasonID="85">
+<Reason Language="Norwegian" Text="Dirty lens or attenuator absent"/>
+</FaultReason>
+<FaultReason ReasonID="86">
+<Reason Language="Norwegian" Text="Receiver misalignment warning"/>
+</FaultReason>
+<FaultReason ReasonID="87">
+<Reason Language="Norwegian" Text="Transmitter misalignment warning"/>
+</FaultReason>
+<FaultReason ReasonID="88">
+<Reason Language="Norwegian" Text="Transmitter flash tube warning"/>
+</FaultReason>
+<FaultReason ReasonID="89">
+<Reason Language="Norwegian" Text="Receiver temperature warning"/>
+</FaultReason>
+<FaultReason ReasonID="90">
+<Reason Language="Norwegian" Text="Receiver supply voltage warning"/>
+</FaultReason>
+<FaultReason ReasonID="91">
+<Reason Language="Norwegian" Text="Beam-block fault"/>
+</FaultReason>
+<FaultReason ReasonID="92">
+<Reason Language="Norwegian" Text="HW or beam-block timeout fault"/>
+</FaultReason>
+<FaultReason ReasonID="93">
+<Reason Language="Norwegian" Text="Gas reading unavailable"/>
+</FaultReason>
+<FaultReason ReasonID="94">
+<Reason Language="Norwegian" Text="Gas reading overrange"/>
+</FaultReason>
+<FaultReason ReasonID="95">
+<Reason Language="Norwegian" Text="Gas reading exceeding EU maximum"/>
+</FaultReason>
+<FaultReason ReasonID="96">
+<Reason Language="Norwegian" Text="Detector span exceeding EU maximum"/>
+</FaultReason>
+<FaultReason ReasonID="97">
+<Reason Language="Norwegian" Text="Reference trouble"/>
+</FaultReason>
+<FaultReason ReasonID="98">
+<Reason Language="Norwegian" Text="Sensitivity trouble"/>
+</FaultReason>
+<FaultReason ReasonID="99">
+<Reason Language="Norwegian" Text="Display trouble"/>
+</FaultReason>
+<FaultReason ReasonID="100">
+<Reason Language="Norwegian" Text="Unregistered display trouble"/>
+</FaultReason>
+<FaultReason ReasonID="101">
+<Reason Language="Norwegian" Text="Localaser trouble"/>
+</FaultReason>
+<FaultReason ReasonID="102">
+<Reason Language="Norwegian" Text="Unregistered localaser trouble"/>
+</FaultReason>
+<FaultReason ReasonID="103">
+<Reason Language="Norwegian" Text="CPU trouble on unit"/>
+</FaultReason>
+<FaultReason ReasonID="104">
+<Reason Language="Norwegian" Text="Ukjent, ikke utførbar parametersetting"/>
+</FaultReason>
+<FaultReason ReasonID="105">
+<Reason Language="Norwegian" Text="Intern kortslutning"/>
+</FaultReason>
+<FaultReason ReasonID="106">
+<Reason Language="Norwegian" Text="Internt brudd"/>
+</FaultReason>
+<FaultReason ReasonID="107">
+<Reason Language="Norwegian" Text="Forurenset"/>
+</FaultReason>
+<FaultReason ReasonID="108">
+<Reason Language="Norwegian" Text="Self Verify-feil i operasjonssonen"/>
+</FaultReason>
+<FaultReason ReasonID="109">
+<Reason Language="Norwegian" Text="Intern kraftforsynigsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="110">
+<Reason Language="Norwegian" Text="Ingen kraftforsyning på inngang A"/>
+</FaultReason>
+<FaultReason ReasonID="111">
+<Reason Language="Norwegian" Text="Ingen kraftforsyning på inngang B"/>
+</FaultReason>
+<FaultReason ReasonID="112">
+<Reason Language="Norwegian" Text="Ingen kraftforsyningsinngang inng A og B"/>
+</FaultReason>
+<FaultReason ReasonID="113">
+<Reason Language="Norwegian" Text="Ekstern kraftforsynings feil"/>
+</FaultReason>
+<FaultReason ReasonID="114">
+<Reason Language="Norwegian" Text="Intern EEPROM-feil"/>
+</FaultReason>
+<FaultReason ReasonID="115">
+<Reason Language="Norwegian" Text="Intern FLASH-feil"/>
+</FaultReason>
+<FaultReason ReasonID="116">
+<Reason Language="Norwegian" Text="Convensjonell detektor feil"/>
+</FaultReason>
+<FaultReason ReasonID="117">
+<Reason Language="Norwegian" Text="Hardware feil på punkt"/>
+</FaultReason>
+<FaultReason ReasonID="118">
+<Reason Language="Norwegian" Text="Feil på grunn av høy effekt"/>
+</FaultReason>
+<FaultReason ReasonID="119">
+<Reason Language="Norwegian" Text="Temperatur utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="120">
+<Reason Language="Norwegian" Text="LED og ekstern utgang støttes ikke"/>
+</FaultReason>
+<FaultReason ReasonID="121">
+<Reason Language="Norwegian" Text="Sokkel: Konfig CRC-feil"/>
+</FaultReason>
+<FaultReason ReasonID="122">
+<Reason Language="Norwegian" Text="Sokkel: CRC-feil"/>
+</FaultReason>
+<FaultReason ReasonID="123">
+<Reason Language="Norwegian" Text="Sokkel: Flash-feil"/>
+</FaultReason>
+<FaultReason ReasonID="124">
+<Reason Language="Norwegian" Text="Sokkel: RAM-feil"/>
+</FaultReason>
+<FaultReason ReasonID="125">
+<Reason Language="Norwegian" Text="Sokkel: Intern spenningsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="126">
+<Reason Language="Norwegian" Text="Sokkel: Temperaturfeil"/>
+</FaultReason>
+<FaultReason ReasonID="127">
+<Reason Language="Norwegian" Text="Detektor mangler"/>
+</FaultReason>
+<FaultReason ReasonID="128">
+<Reason Language="Norwegian" Text="Tilleggskort mangler"/>
+</FaultReason>
+<FaultReason ReasonID="129">
+<Reason Language="Norwegian" Text="Detektor: Konfig CRC-feil"/>
+</FaultReason>
+<FaultReason ReasonID="130">
+<Reason Language="Norwegian" Text="Detektor: CRC-feil"/>
+</FaultReason>
+<FaultReason ReasonID="131">
+<Reason Language="Norwegian" Text="Detektor: Flash-feil"/>
+</FaultReason>
+<FaultReason ReasonID="132">
+<Reason Language="Norwegian" Text="Detektor: RAM-feil"/>
+</FaultReason>
+<FaultReason ReasonID="133">
+<Reason Language="Norwegian" Text="Detektor: Intern spenningsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="134">
+<Reason Language="Norwegian" Text="Detektor: Temperaturfeil"/>
+</FaultReason>
+<FaultReason ReasonID="135">
+<Reason Language="Norwegian" Text="Tilleggskort: Konfig CRC-feil"/>
+</FaultReason>
+<FaultReason ReasonID="136">
+<Reason Language="Norwegian" Text="Tilleggskort: CRC-feil"/>
+</FaultReason>
+<FaultReason ReasonID="137">
+<Reason Language="Norwegian" Text="Tilleggskort: Flash-feil"/>
+</FaultReason>
+<FaultReason ReasonID="138">
+<Reason Language="Norwegian" Text="Tilleggskort: RAM-feil"/>
+</FaultReason>
+<FaultReason ReasonID="139">
+<Reason Language="Norwegian" Text="Tilleggskort: Intern spenningsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="140">
+<Reason Language="Norwegian" Text="Tilleggskort: Temperaturfeil"/>
+</FaultReason>
+<FaultReason ReasonID="141">
+<Reason Language="Norwegian" Text="Detektor: Kalibreringsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="142">
+<Reason Language="Norwegian" Text="Detektor: Nedstøvet"/>
+</FaultReason>
+<FaultReason ReasonID="143">
+<Reason Language="Norwegian" Text="Detektor: Feil på røykmåling"/>
+</FaultReason>
+<FaultReason ReasonID="144">
+<Reason Language="Norwegian" Text="Detektor: Feil på varmesensor"/>
+</FaultReason>
+<FaultReason ReasonID="145">
+<Reason Language="Norwegian" Text="Detektor: Redusert røykdeteksjon"/>
+</FaultReason>
+<FaultReason ReasonID="146">
+<Reason Language="Norwegian" Text="Detektor: Self Verify-feil"/>
+</FaultReason>
+<FaultReason ReasonID="147">
+<Reason Language="Norwegian" Text="Detektor: Kalibreringsfeil på CO-sensor"/>
+</FaultReason>
+<FaultReason ReasonID="148">
+<Reason Language="Norwegian" Text="Detektor: Feil på CO-sensor"/>
+</FaultReason>
+<FaultReason ReasonID="149">
+<Reason Language="Norwegian" Text="Detektor: CO-sensors levetid utløpt"/>
+</FaultReason>
+<FaultReason ReasonID="150">
+<Reason Language="Norwegian" Text="Detektor er tildekket"/>
+</FaultReason>
+<FaultReason ReasonID="151">
+<Reason Language="Norwegian" Text="Detektor: Feil på tildekningssensor"/>
+</FaultReason>
+<FaultReason ReasonID="152">
+<Reason Language="Norwegian" Text="Sokkel: Ute av drift"/>
+</FaultReason>
+<FaultReason ReasonID="153">
+<Reason Language="Norwegian" Text="Detektor: Ute av drift"/>
+</FaultReason>
+<FaultReason ReasonID="154">
+<Reason Language="Norwegian" Text="Tilleggskort: Ute av drift"/>
+</FaultReason>
+<FaultReason ReasonID="155">
+<Reason Language="Norwegian" Text="Ukjent kort: Ute av drift"/>
+</FaultReason>
+<FaultReason ReasonID="156">
+<Reason Language="Norwegian" Text="Intern versjonskonflikt"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="10">
+<Class Language="Norwegian" Text="Service"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Automatisk SV test avbrutt"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Forurenset"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Komponent stoppet"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Komponentstopp mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Systemfeil på EAC CPU"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Systemfeil på BSR CPU"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Advarsel, lite minne"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Kommunikasjon tapt"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Self Verify mislykket"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Tid utløpt fra Alcom"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Alarmtest feilet"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="Feil i mottatte data"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Høy effekt detektert"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="11">
+<Class Language="Norwegian" Text="BSF-400"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Ladespenning for lav"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Ladespenning for høy"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Sikring F8 til batterilader ødelagt"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Nettfeil"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Feil på batterilader"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Batterispenning for lav"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Batterispenning for høy"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Batterisikring F7 ødelagt"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Batteritemperatursensor ikke tilkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Batteritemperatursensor kortsluttet"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Batteritemperatur for lav"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="Batteritemperatur for høy"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Batteri ikke tilkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="For høy motstand i batterikrets"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="Feil på batterirele"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="Utgang A1 spenning for lav"/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="Utgang A1 spenning for høy"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="Utgang A1 sikring F1 ødelagt"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="Utgang A1 elektronisk sikring utløst"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="Utgang A2 spenning for lav"/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="Utgang A2 spenning for høy"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="Utgang A2 sikring F2 ødelagt"/>
+</FaultReason>
+<FaultReason ReasonID="22">
+<Reason Language="Norwegian" Text="Utgang A2 elektronisk sikring utløst"/>
+</FaultReason>
+<FaultReason ReasonID="23">
+<Reason Language="Norwegian" Text="Utgang B1 spenning for lav"/>
+</FaultReason>
+<FaultReason ReasonID="24">
+<Reason Language="Norwegian" Text="Utgang B1 spenning for høy"/>
+</FaultReason>
+<FaultReason ReasonID="25">
+<Reason Language="Norwegian" Text="Utgang B1 sikring F3 ødelagt"/>
+</FaultReason>
+<FaultReason ReasonID="26">
+<Reason Language="Norwegian" Text="Utgang B1 elektronisk sikring utløst"/>
+</FaultReason>
+<FaultReason ReasonID="27">
+<Reason Language="Norwegian" Text="Utgang B2 spenning for lav"/>
+</FaultReason>
+<FaultReason ReasonID="28">
+<Reason Language="Norwegian" Text="Utgang B2 spenning for høy"/>
+</FaultReason>
+<FaultReason ReasonID="29">
+<Reason Language="Norwegian" Text="Utgang B2 sikring F4 ødelagt"/>
+</FaultReason>
+<FaultReason ReasonID="30">
+<Reason Language="Norwegian" Text="Utgang B2 elektronisk sikring utløst"/>
+</FaultReason>
+<FaultReason ReasonID="31">
+<Reason Language="Norwegian" Text="Utgang C1 spenning for lav"/>
+</FaultReason>
+<FaultReason ReasonID="32">
+<Reason Language="Norwegian" Text="Utgang C1 spenning for høy"/>
+</FaultReason>
+<FaultReason ReasonID="33">
+<Reason Language="Norwegian" Text="Utgang C1 sikring F5 ødelagt"/>
+</FaultReason>
+<FaultReason ReasonID="34">
+<Reason Language="Norwegian" Text="Utgang C1 elektronisk sikring utløst"/>
+</FaultReason>
+<FaultReason ReasonID="35">
+<Reason Language="Norwegian" Text="Utgang C2 spenning for lav"/>
+</FaultReason>
+<FaultReason ReasonID="36">
+<Reason Language="Norwegian" Text="Utgang C2 spenning for høy"/>
+</FaultReason>
+<FaultReason ReasonID="37">
+<Reason Language="Norwegian" Text="Utgang C2 sikring F6 ødelagt"/>
+</FaultReason>
+<FaultReason ReasonID="38">
+<Reason Language="Norwegian" Text="Utgang C2 elektronisk sikring utløst"/>
+</FaultReason>
+<FaultReason ReasonID="39">
+<Reason Language="Norwegian" Text="Jordfeil til minus"/>
+</FaultReason>
+<FaultReason ReasonID="40">
+<Reason Language="Norwegian" Text="Jordfeil til pluss"/>
+</FaultReason>
+<FaultReason ReasonID="41">
+<Reason Language="Norwegian" Text="Intern temperatur utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="42">
+<Reason Language="Norwegian" Text="Intern 15V spenning utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="43">
+<Reason Language="Norwegian" Text="Intern 5V spenning utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="44">
+<Reason Language="Norwegian" Text="Intern -5V spenning utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="45">
+<Reason Language="Norwegian" Text="Intern 3,3V spenning utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="46">
+<Reason Language="Norwegian" Text="Generell HW-feil"/>
+</FaultReason>
+<FaultReason ReasonID="47">
+<Reason Language="Norwegian" Text="Eepromminne-feil"/>
+</FaultReason>
+<FaultReason ReasonID="48">
+<Reason Language="Norwegian" Text="Flashminne-feil"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="12">
+<Class Language="Norwegian" Text="Teknisk alarm"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Dør lukket seg ikke"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Lys ikke tent"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Aktivering feilet"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="13">
+<Class Language="Norwegian" Text="Overvåking"/>
+</FaultClass>
+<FaultClass ClassID="14">
+<Class Language="Norwegian" Text="Autrofieldbus"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Kommunikasjon med sløyfedriver mistet"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Kabelproblem detektert på sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Sløyfeenhet mangler på sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Ekstra sløyfeenhet detektert på sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Dobbeladressering detektert"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Avgreining detektert på åpen sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Avgreining detektert på lukket sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Ukjent feil detektert"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Jordfeil detektert"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Temperatur utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Minnefeil detektert"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="VDD utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="For mange enheter tilkoblet på sløyfen"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Intern 3.3V spenning utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="Intern 15V spenning utenfor grense"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="15">
+<Class Language="Norwegian" Text="PowerLoop"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Brudd på sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Kortslutning på sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Jordfeil detektert"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Sløyfedriver svarer ikke"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Avgreining detektert på åpen sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Avgreining detektert på lukket sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Temperatur utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Ukjent feil detektert"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Krysstale tetektert"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Minnefeil detektert"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="VDD utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="For mange enheter tilkoblet på sløyfen"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Intern 3.3V spenning utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Intern 15V spenning utenfor grense"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="16">
+<Class Language="Norwegian" Text="BS100 sløyfe"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Intern BS100 feil"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="(6.0) Sløyfen koblet ned"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="(E.0) Manglende eller kort svarpuls"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="(E.1) Dobbel adressering"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="(E.2) Adresse svarer på resetnr."/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="(E.3) Adresse 100 svarer, må fjernes"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="(E.4) Ikke svar ved oppstart"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="(E.5) Ulovlig resetnummer"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="(E.6) For lavt resetnummer"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="(E.7) For høyt resetnummer"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="(F.0) Sløyfen er OK"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="(F.1) Brudd på sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="(F.2) Brudd på sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="(F.3) Brudd på sløyfe"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="(F.4) Høyt strømtrekk"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="(F.5) Høy sløyfespenning"/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="(F.6) Høy sløyfespenning"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="(F.7) Høy sløyfespenning"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="(F.8) Høyt strømtrekk"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="En feilmelding er mistet"/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="RTS linjen aktiv i 30 min"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="Al_Com+ udefinert feil"/>
+</FaultReason>
+<FaultReason ReasonID="22">
+<Reason Language="Norwegian" Text="Ukjent BSD feil"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="17">
+<Class Language="Norwegian" Text="Generell protokollkonverterer"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Temperatur utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Ukjent feil detektert"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Jordfeil detektert på serieport"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Minnefeil detektert"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="VDD utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="For mange enheter tilkoblet på sløyfen"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Intern 3.3V spenning utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Intern 15V spenning utenfor grense"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Loopback-feil detektert"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="18">
+<Class Language="Norwegian" Text="BSA-400"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="Sjekksumfeil i konfigurasjonen"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="Restart etter systemfeil"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="Intern spenningsfeil"/>
+</FaultReason>
+<FaultReason ReasonID="3">
+<Reason Language="Norwegian" Text="Intern temperatur for lav"/>
+</FaultReason>
+<FaultReason ReasonID="4">
+<Reason Language="Norwegian" Text="Intern temperatur for høy"/>
+</FaultReason>
+<FaultReason ReasonID="5">
+<Reason Language="Norwegian" Text="Inngangsspenning for lav"/>
+</FaultReason>
+<FaultReason ReasonID="6">
+<Reason Language="Norwegian" Text="Inngangsspenning for høy"/>
+</FaultReason>
+<FaultReason ReasonID="7">
+<Reason Language="Norwegian" Text="Neg. leder på pwr-inng. 1 ikke tilkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="8">
+<Reason Language="Norwegian" Text="Pos. leder på pwr-inng. 1 ikke tilkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="9">
+<Reason Language="Norwegian" Text="Neg. leder på pwr-inng. 2 ikke tilkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="10">
+<Reason Language="Norwegian" Text="Pos. leder på pwr-inng. 2 ikke tilkoblet"/>
+</FaultReason>
+<FaultReason ReasonID="11">
+<Reason Language="Norwegian" Text="Ethernet 1 ikke operativt"/>
+</FaultReason>
+<FaultReason ReasonID="12">
+<Reason Language="Norwegian" Text="Ethernet 2 ikke operativt"/>
+</FaultReason>
+<FaultReason ReasonID="13">
+<Reason Language="Norwegian" Text="Ethernet ikke operativt"/>
+</FaultReason>
+<FaultReason ReasonID="14">
+<Reason Language="Norwegian" Text="Feil i sløyfe mikrokontroller"/>
+</FaultReason>
+<FaultReason ReasonID="15">
+<Reason Language="Norwegian" Text="Mangelfull textsegment-overvåking"/>
+</FaultReason>
+<FaultReason ReasonID="16">
+<Reason Language="Norwegian" Text="Panel har mistet ethernetforbindelsen"/>
+</FaultReason>
+<FaultReason ReasonID="17">
+<Reason Language="Norwegian" Text="Panel har mistet Ethernet 1"/>
+</FaultReason>
+<FaultReason ReasonID="18">
+<Reason Language="Norwegian" Text="Panel har mistet Ethernet 2"/>
+</FaultReason>
+<FaultReason ReasonID="19">
+<Reason Language="Norwegian" Text="Ethernet-integritet tapt"/>
+</FaultReason>
+<FaultReason ReasonID="20">
+<Reason Language="Norwegian" Text="Ethernet 1 fragmentert"/>
+</FaultReason>
+<FaultReason ReasonID="21">
+<Reason Language="Norwegian" Text="Ethernet 2 fragmentert"/>
+</FaultReason>
+<FaultReason ReasonID="22">
+<Reason Language="Norwegian" Text="Filsystem er korruptert"/>
+</FaultReason>
+<FaultReason ReasonID="23">
+<Reason Language="Norwegian" Text="Feil i filsystem-overvåking"/>
+</FaultReason>
+<FaultReason ReasonID="24">
+<Reason Language="Norwegian" Text="Feil i overvåking av konfig-filer"/>
+</FaultReason>
+<FaultReason ReasonID="25">
+<Reason Language="Norwegian" Text="RAM-feil. Nedstengning"/>
+</FaultReason>
+<FaultReason ReasonID="26">
+<Reason Language="Norwegian" Text="RAM-test kjører ikke"/>
+</FaultReason>
+<FaultReason ReasonID="27">
+<Reason Language="Norwegian" Text="Bitfeil i kjørende program. Nedstengning"/>
+</FaultReason>
+<FaultReason ReasonID="28">
+<Reason Language="Norwegian" Text="Feil i overvåking av textsegment"/>
+</FaultReason>
+<FaultReason ReasonID="29">
+<Reason Language="Norwegian" Text="CAN bus power feil"/>
+</FaultReason>
+<FaultReason ReasonID="30">
+<Reason Language="Norwegian" Text="USB port 0 for høyt strømtrekk"/>
+</FaultReason>
+<FaultReason ReasonID="31">
+<Reason Language="Norwegian" Text="USB port 1 for høyt strømtrekk"/>
+</FaultReason>
+<FaultReason ReasonID="32">
+<Reason Language="Norwegian" Text="Ethernet 1 ubrukelig"/>
+</FaultReason>
+<FaultReason ReasonID="33">
+<Reason Language="Norwegian" Text="Ethernet 2 ubrukelig"/>
+</FaultReason>
+<FaultReason ReasonID="34">
+<Reason Language="Norwegian" Text="SD-brikke er fjernet fra hovedkortet"/>
+</FaultReason>
+</FaultClass>
+<FaultClass ClassID="19">
+<Class Language="Norwegian" Text="FEILKLASSE_IKKE_I_BRUK"/>
+</FaultClass>
+<FaultClass ClassID="20">
+<Class Language="Norwegian" Text="System"/>
+<FaultReason ReasonID="0">
+<Reason Language="Norwegian" Text="System er ikke i standby"/>
+</FaultReason>
+<FaultReason ReasonID="1">
+<Reason Language="Norwegian" Text="System er standalone"/>
+</FaultReason>
+<FaultReason ReasonID="2">
+<Reason Language="Norwegian" Text="System har stoppet"/>
+</FaultReason>
+</FaultClass>
+</FaultDirectory>

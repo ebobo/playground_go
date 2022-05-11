@@ -2,15 +2,18 @@ package main
 
 import (
 	"bytes"
+	"encoding/binary"
 	"fmt"
 )
 
 func main() {
+	// buf := new(bytes.Buffer)
+	buf := bytes.NewBuffer(make([]byte, 20))
+	// var pi float64 = math.Pi
 
-	var buf bytes.Buffer
-
-	buf.WriteRune(1234)
-
-	bytes := buf.Bytes()
-	fmt.Println(bytes, len(bytes))
+	err := binary.Write(buf, binary.LittleEndian, uint8(2))
+	if err != nil {
+		fmt.Println("binary.Write failed:", err)
+	}
+	fmt.Printf("% x\n", buf.Bytes())
 }

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<AutroSafeSystem TagName="KOLHEIVEGEN 10" StationID="1500" Version="1.0.0" Language="Norwegian">
+<AS_Version C_Version="4.11.2.0" CS_Version="4.75.0" FileName="KOLHEIVEGEN10_210625_4.11.2" GenerationTime="06/25/21 14:18:47" FileVersion=""/>
+<AutroSafePanel TagName="BRANNSENTRAL" Type="BS420" UnitID="PA1" SystemId="1">
+<SuperTerminal TerminalName="SW_Fault" Type="OR" ValueType="1">
+<InputTerminal TagTerminal="Log Controller#Fault"/>
+<InputTerminal TagTerminal="Domain Controller#Fault"/>
+<InputTerminal TagTerminal="Domain Network#Fault"/>
+<InputTerminal TagTerminal="BLC_Eq#Fault"/>
+<InputTerminal TagTerminal="BLC Controller#Fault"/>
+<InputTerminal TagTerminal="Computer Controller#Fault"/>
+<InputTerminal TagTerminal="MainCpu#Fault"/>
+<InputTerminal TagTerminal="Operator Panel Equipment#Fault"/>
+<InputTerminal TagTerminal="REMOTE PILOT#Fault"/>
+<InputTerminal TagTerminal="Loop Controller#Fault"/>
+<InputTerminal TagTerminal="Point Controller#Fault"/>
+<InputTerminal TagTerminal="FAD Controller#Fault"/>
+<InputTerminal TagTerminal="FPE Controller#Fault"/>
+<InputTerminal TagTerminal="Power Controller#Fault"/>
+<InputTerminal TagTerminal="OP Controller#Fault"/>
+<InputTerminal TagTerminal="OZ Controller#Fault"/>
+<InputTerminal TagTerminal="KOLHEIVEGEN 10#Fault"/>
+<InputTerminal TagTerminal="DZ Controller#Fault"/>
+<InputTerminal TagTerminal="BAD LEILIGHET 1#Fault"/>
+<InputTerminal TagTerminal="SOVEROM LEILIGHET 1#Fault"/>
+<InputTerminal TagTerminal="STUE LEILIGHET 1#Fault"/>
+<InputTerminal TagTerminal="STUE LEILIGHET 2#Fault"/>
+<InputTerminal TagTerminal="SOVEROM LEILIGHET 2#Fault"/>
+<InputTerminal TagTerminal="BAD LEILIGHET 2#Fault"/>
+<InputTerminal TagTerminal="BAD LEILIGHET 3#Fault"/>
+<InputTerminal TagTerminal="SOVEROM LEILIGHET 3#Fault"/>
+<InputTerminal TagTerminal="STUE LEILIGHET 3#Fault"/>
+<InputTerminal TagTerminal="STUE LEILIGHET 4#Fault"/>
+<InputTerminal TagTerminal="SOVEROM LEILIGHET 4#Fault"/>
+<InputTerminal TagTerminal="BAD LEILIGHET 4#Fault"/>
+<InputTerminal TagTerminal="MANUELL MELDER GANG NORD#Fault"/>
+<InputTerminal TagTerminal="GARDEROBE#Fault"/>
+<InputTerminal TagTerminal="KONTOR-OPPHOLDSROM#Fault"/>
+<InputTerminal TagTerminal="GANG NORD#Fault"/>
+<InputTerminal TagTerminal="MANUELL MELDER HOVEDINNGANG#Fault"/>
+<InputTerminal TagTerminal="VASKEROM#Fault"/>
+<InputTerminal TagTerminal="KJØKKEN#Fault"/>
+<InputTerminal TagTerminal="BOD#Fault"/>
+<InputTerminal TagTerminal="GANG SØR#Fault"/>
+<InputTerminal TagTerminal="STUE-SPISEROM#Fault"/>
+<InputTerminal TagTerminal="MANUELL MELDER GANG SØR#Fault"/>
+<InputTerminal TagTerminal="TEKN ROM LOFT#Fault"/>
+<InputTerminal TagTerminal="SPRINKLER#Fault"/>
+<InputTerminal TagTerminal="AZ Controller#Fault"/>
+<InputTerminal TagTerminal="ALLE ALARMORGAN#Fault"/>
+</SuperTerminal>
+<CPU_Ctrl UnitID="co1" TagName="Computer Controller" SubType="" OzID="OZ1" Description="Internal software: Computer Controller"/>
+<AutroSafeUnit TagName="Log Controller" UnitID="lc1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: Log Controller"/>
+<AutroSafeUnit TagName="Domain Controller" UnitID="do1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: Domain Controller"/>
+<AutroSafeUnit TagName="Domain Network" UnitID="DO1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: Domain Network"/>
+<AutroSafeUnit TagName="BLC_Eq" UnitID="BQ1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: BLC_Eq"/>
+<AutroSafeUnit TagName="BLC Controller" UnitID="bc1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: BLC Controller"/>
+<AutroSafeUnit TagName="MainCpu" UnitID="CO1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: MainCpu"/>
+<AutroSafeUnit TagName="Operator Panel Equipment" UnitID="OP1" SubType="Operator Panel" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: Operator Panel Equipment"/>
+<AutroCom TagName="REMOTE PILOT" UnitID="OP2" SubType="AutroCom" OzID="OZ1" OzTag="KOLHEIVEGEN 10" OwnIP_Address="192.168.0.2" TCP_PortNumber="25500" Type="TCP_IP" Description=""/>
+<AutroSafeUnit TagName="Loop Controller" UnitID="dl1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: Loop Controller"/>
+<AutroSafeUnit TagName="BSL 310" UnitID="DL1" SubType="H" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="BSL 310"/>
+<AutroSafeUnit TagName="SLØYFE-A1" UnitID="DL2" SubType="A" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="SLØYFE-A1"/>
+<AutroSafeUnit TagName="SLØYFE-A2" UnitID="DL3" SubType="A" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="SLØYFE-A2"/>
+<AutroSafeUnit TagName="BSB-310-1" UnitID="DL4" SubType="F" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="BSB-310-1"/>
+<AutroSafeUnit TagName="Point Controller" UnitID="pt1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: Point Controller"/>
+<AutroSafeUnit TagName="A1 001" UnitID="PT1" SubType="FH" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ1" DzTag="BAD LEILIGHET 1" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 003" UnitID="PT2" SubType="FC" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ2" DzTag="SOVEROM LEILIGHET 1" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 005" UnitID="PT3" SubType="FC" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ3" DzTag="STUE LEILIGHET 1" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 006" UnitID="PT4" SubType="FC" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ4" DzTag="STUE LEILIGHET 2" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 007" UnitID="PT5" SubType="FC" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ5" DzTag="SOVEROM LEILIGHET 2" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 009" UnitID="PT6" SubType="FH" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ6" DzTag="BAD LEILIGHET 2" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 011" UnitID="PT7" SubType="FH" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ7" DzTag="BAD LEILIGHET 3" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 013" UnitID="PT8" SubType="FC" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ8" DzTag="SOVEROM LEILIGHET 3" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 015" UnitID="PT9" SubType="FC" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ9" DzTag="STUE LEILIGHET 3" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 016" UnitID="PTA" SubType="FC" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZA" DzTag="STUE LEILIGHET 4" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 017" UnitID="PTB" SubType="FC" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZB" DzTag="SOVEROM LEILIGHET 4" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 019" UnitID="PTC" SubType="FH" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZC" DzTag="BAD LEILIGHET 4" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A2 001" UnitID="PTD" SubType="FM" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZD" DzTag="MANUELL MELDER GANG NORD" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 002" UnitID="PTE" SubType="FH" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZE" DzTag="GARDEROBE" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 003" UnitID="PTF" SubType="FO" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZF" DzTag="KONTOR-OPPHOLDSROM" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 004" UnitID="PT10" SubType="FO" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ10" DzTag="GANG NORD" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 006" UnitID="PT11" SubType="FM" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ11" DzTag="MANUELL MELDER HOVEDINNGANG" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 007" UnitID="PT12" SubType="FH" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ12" DzTag="VASKEROM" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 008" UnitID="PT13" SubType="FH" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ13" DzTag="KJØKKEN" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 009" UnitID="PT14" SubType="FO" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ14" DzTag="BOD" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 010" UnitID="PT15" SubType="FO" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ15" DzTag="GANG SØR" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 012" UnitID="PT16" SubType="FO" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ16" DzTag="STUE-SPISEROM" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 013" UnitID="PT17" SubType="FM" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ17" DzTag="MANUELL MELDER GANG SØR" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 014" UnitID="PT18" SubType="FO" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ18" DzTag="TEKN ROM LOFT" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 015" UnitID="PT19" SubType="MS" OzID="OZ1" OzTag="KOLHEIVEGEN 10" DzID="DZ19" DzTag="SPRINKLER" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="FAD Controller" UnitID="fd1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: FAD Controller"/>
+<AutroSafeUnit TagName="A1 004" UnitID="FD1" SubType="Sounder" OzID="OZ1" OzTag="KOLHEIVEGEN 10" AzID="AZ1" AzTag="ALLE ALARMORGAN" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 008" UnitID="FD2" SubType="Sounder" OzID="OZ1" OzTag="KOLHEIVEGEN 10" AzID="AZ1" AzTag="ALLE ALARMORGAN" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 014" UnitID="FD3" SubType="Sounder" OzID="OZ1" OzTag="KOLHEIVEGEN 10" AzID="AZ1" AzTag="ALLE ALARMORGAN" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A1 018" UnitID="FD4" SubType="Sounder" OzID="OZ1" OzTag="KOLHEIVEGEN 10" AzID="AZ1" AzTag="ALLE ALARMORGAN" LoopID="DL2" LoopTag="SLØYFE-A1" Description=""/>
+<AutroSafeUnit TagName="A2 005" UnitID="FD5" SubType="Sounder" OzID="OZ1" OzTag="KOLHEIVEGEN 10" AzID="AZ1" AzTag="ALLE ALARMORGAN" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="A2 011" UnitID="FD6" SubType="Sounder" OzID="OZ1" OzTag="KOLHEIVEGEN 10" AzID="AZ1" AzTag="ALLE ALARMORGAN" LoopID="DL3" LoopTag="SLØYFE-A2" Description=""/>
+<AutroSafeUnit TagName="FPE Controller" UnitID="fp1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: FPE Controller"/>
+<AutroSafeUnit TagName="BRANNVESENET" UnitID="FP1" SubType="D" OzID="OZ1" OzTag="KOLHEIVEGEN 10" LoopID="DL4" LoopTag="BSB-310-1" Description=""/>
+<AutroSafeUnit TagName="RESERVE-1" UnitID="FP2" SubType="A" OzID="OZ1" OzTag="KOLHEIVEGEN 10" LoopID="DL4" LoopTag="BSB-310-1" Description=""/>
+<AutroSafeUnit TagName="HOLDEMAGNET" UnitID="FP3" SubType="A" OzID="OZ1" OzTag="KOLHEIVEGEN 10" LoopID="DL4" LoopTag="BSB-310-1" Description=""/>
+<AutroSafeUnit TagName="FEILUTGANG" UnitID="FP4" SubType="E" OzID="OZ1" OzTag="KOLHEIVEGEN 10" LoopID="DL4" LoopTag="BSB-310-1" Description=""/>
+<AutroSafeUnit TagName="Power Controller" UnitID="pw1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: Power Controller"/>
+<AutroSafeUnit TagName="Power" UnitID="PW1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description=""/>
+<AutroSafeUnit TagName="OP Controller" UnitID="op1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: OP Controller"/>
+<AutroSafeUnit TagName="OZ Controller" UnitID="oz1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: OZ Controller"/>
+<AutroSafeUnit TagName="KOLHEIVEGEN 10" UnitID="OZ1" SubType="TOP" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="KOLHEIVEGEN 10"/>
+<AutroSafeUnit TagName="DZ Controller" UnitID="dz1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: DZ Controller"/>
+<AutroSafeUnit TagName="BAD LEILIGHET 1" UnitID="DZ1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="BAD LEILIGHET 1"/>
+<AutroSafeUnit TagName="SOVEROM LEILIGHET 1" UnitID="DZ2" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="SOVEROM LEILIGHET 1"/>
+<AutroSafeUnit TagName="STUE LEILIGHET 1" UnitID="DZ3" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="STUE LEILIGHET 1"/>
+<AutroSafeUnit TagName="STUE LEILIGHET 2" UnitID="DZ4" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="STUE LEILIGHET 2"/>
+<AutroSafeUnit TagName="SOVEROM LEILIGHET 2" UnitID="DZ5" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="SOVEROM LEILIGHET 2"/>
+<AutroSafeUnit TagName="BAD LEILIGHET 2" UnitID="DZ6" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="BAD LEILIGHET 2"/>
+<AutroSafeUnit TagName="BAD LEILIGHET 3" UnitID="DZ7" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="BAD LEILIGHET 3"/>
+<AutroSafeUnit TagName="SOVEROM LEILIGHET 3" UnitID="DZ8" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="SOVEROM LEILIGHET 3"/>
+<AutroSafeUnit TagName="STUE LEILIGHET 3" UnitID="DZ9" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="STUE LEILIGHET 3"/>
+<AutroSafeUnit TagName="STUE LEILIGHET 4" UnitID="DZA" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="STUE LEILIGHET 4"/>
+<AutroSafeUnit TagName="SOVEROM LEILIGHET 4" UnitID="DZB" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="SOVEROM LEILIGHET 4"/>
+<AutroSafeUnit TagName="BAD LEILIGHET 4" UnitID="DZC" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="BAD LEILIGHET 4"/>
+<AutroSafeUnit TagName="MANUELL MELDER GANG NORD" UnitID="DZD" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="MANUELL MELDER GANG NORD"/>
+<AutroSafeUnit TagName="GARDEROBE" UnitID="DZE" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="GARDEROBE"/>
+<AutroSafeUnit TagName="KONTOR-OPPHOLDSROM" UnitID="DZF" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="KONTOR-OPPHOLDSROM"/>
+<AutroSafeUnit TagName="GANG NORD" UnitID="DZ10" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="GANG NORD"/>
+<AutroSafeUnit TagName="MANUELL MELDER HOVEDINNGANG" UnitID="DZ11" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="MANUELL MELDER HOVEDINNGANG"/>
+<AutroSafeUnit TagName="VASKEROM" UnitID="DZ12" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="VASKEROM"/>
+<AutroSafeUnit TagName="KJØKKEN" UnitID="DZ13" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="KJØKKEN"/>
+<AutroSafeUnit TagName="BOD" UnitID="DZ14" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="BOD"/>
+<AutroSafeUnit TagName="GANG SØR" UnitID="DZ15" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="GANG SØR"/>
+<AutroSafeUnit TagName="STUE-SPISEROM" UnitID="DZ16" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="STUE-SPISEROM"/>
+<AutroSafeUnit TagName="MANUELL MELDER GANG SØR" UnitID="DZ17" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="MANUELL MELDER GANG SØR"/>
+<AutroSafeUnit TagName="TEKN ROM LOFT" UnitID="DZ18" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="TEKN ROM LOFT"/>
+<AutroSafeUnit TagName="SPRINKLER" UnitID="DZ19" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="SPRINKLER"/>
+<AutroSafeUnit TagName="AZ Controller" UnitID="az1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description="Internal software: AZ Controller"/>
+<AutroSafeUnit TagName="ALLE ALARMORGAN" UnitID="AZ1" SubType="" OzID="OZ1" OzTag="KOLHEIVEGEN 10" Description=""/>
+</AutroSafePanel>
+</AutroSafeSystem>
